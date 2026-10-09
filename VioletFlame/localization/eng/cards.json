@@ -36,6 +36,8 @@
   "VIOLETFLAME-EXTRACT_FUEL.title": "Extract Fuel",
   "VIOLETFLAME-FINAL_STRIKE.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], gain {VigorPower:diff()} [gold]Vigor[/gold].\nOtherwise, DIE.",
   "VIOLETFLAME-FINAL_STRIKE.title": "Final Strike",
+  "VIOLETFLAME-FIREBALL.description": "Deal {Damage:diff()} damage to ALL enemies.",
+  "VIOLETFLAME-FIREBALL.title": "Fireball",
   "VIOLETFLAME-FORCE_OF_WILL.description": "Gain {CalculatedBlock:diff()} [gold]Block[/gold].\nGains additional [gold]Block[/gold] equal to twice your [gold]Vigor[/gold].\nLose all Vigor.",
   "VIOLETFLAME-FORCE_OF_WILL.title": "Force of Will",
   "VIOLETFLAME-HALF_PLATE.description": "Gain {Block:diff()} [gold]Block[/gold].\nGain 2 [gold]Plating[/gold].",
