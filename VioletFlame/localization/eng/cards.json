@@ -28,6 +28,8 @@
   "VIOLETFLAME-COUP_DE_GRACE.title": "Coup De Grace",
   "VIOLETFLAME-DEFEND_VIOLET_FLAME.description": "Gain {Block:diff()} [gold]Block[/gold].",
   "VIOLETFLAME-DEFEND_VIOLET_FLAME.title": "Defend",
+  "VIOLETFLAME-DISINTEGRATE.description": "Deal {Damage:diff()} damage.\nIf Fatal, gain 4 [gold]Plating[/gold].\nOtherwise, apply 2 [gold]Demise[/gold].",
+  "VIOLETFLAME-DISINTEGRATE.title": "Disintegrate",
   "VIOLETFLAME-DOUBLE_TAP.description": "[gold]Fatal[/gold] cards have [gold]Replay[/gold] 1",
   "VIOLETFLAME-DOUBLE_TAP.title": "Double Tap",
   "VIOLETFLAME-FINAL_STRIKE.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], gain {VigorPower:diff()} [gold]Vigor[/gold].\nOtherwise, DIE.",
