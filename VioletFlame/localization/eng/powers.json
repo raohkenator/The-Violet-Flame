@@ -1,0 +1,8 @@
+{
+  "VIOLETFLAME-CHANGE_STANCE_POWER.description": "At the start of your turn, gain [blue]1[/blue] [Gold]Energy[/Gold].",
+  "VIOLETFLAME-CHANGE_STANCE_POWER.smartDescription": "At the start of your turn, gain {Amount:energyIcons()}.",
+  "VIOLETFLAME-CHANGE_STANCE_POWER.title": "Change Stance",
+  "VIOLETFLAME-DOUBLE_TAP_POWER.description": "[gold]Fatal[/gold] cards gains [gold]Replay[/gold] [blue]1[/blue].",
+  "VIOLETFLAME-DOUBLE_TAP_POWER.smartDescription": "[gold]Fatal[/gold] cards gains [gold]Replay[/gold] [blue]{Amount}[/blue].",
+  "VIOLETFLAME-DOUBLE_TAP_POWER.title": "Double Tap"
+}
