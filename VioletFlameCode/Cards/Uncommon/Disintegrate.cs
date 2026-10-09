@@ -32,6 +32,19 @@ public class Disintegrate() : VioletFlameCard(2,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
+        ArgumentNullException.ThrowIfNull(play.Target);
+        AttackCommand atkCmd = DamageCmd.Attack(DynamicVars.Damage.BaseValue)
+            .FromCard(this, play)
+            .Targeting(play.Target);
+
+        var result = await atkCmd.ExecuteAndCheckFatal(choiceContext);
+        bool killed = result.Count > 0;
+
+        if (killed)
+        {
+            await PowerCmd.Apply<PlatingPower>(choiceContext, Owner.Creature, 4M, Owner.Creature, this);
+            return;
+        }        
         await PowerCmd.Apply<DemisePower>(choiceContext, play.Target, 2M, Owner.Creature, this);
     }
 
