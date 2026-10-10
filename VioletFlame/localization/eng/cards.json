@@ -44,6 +44,8 @@
   "VIOLETFLAME-HALF_PLATE.title": "Half-Plate",
   "VIOLETFLAME-HEAT_METAL.description": "Apply {FrailPower:diff()} [gold]Frail[/gold], {DemisePower:diff()} [gold]Demise[/gold], and 1 [gold]Thorns[/gold].",
   "VIOLETFLAME-HEAT_METAL.title": "Heat Metal",
+  "VIOLETFLAME-HELLFIRE.description": "Deal {CalculatedDamage:diff} damage.\nIf your [gold]Strength[/gold] is negative, Strength affects this card {ExtraDamage:diff()} times.",
+  "VIOLETFLAME-HELLFIRE.title": "Hellfire",
   "VIOLETFLAME-IGNITE.description": "Deal {Damage:diff()} damage twice.\nIf [gold]Fatal[/gold], heal {Heal:diff()} HP.",
   "VIOLETFLAME-IGNITE.title": "Ignite",
   "VIOLETFLAME-IGNITE_FUEL.description": "Deal {Damage:diff()} damage.\nIf Fatal, Heal {Heal:diff()} HP.",
