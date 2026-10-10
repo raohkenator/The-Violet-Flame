@@ -23,6 +23,8 @@
   "VIOLETFLAME-CONSUME_FUEL.title": "Consume Fuel",
   "VIOLETFLAME-CONVECTION.description": "Gain {Block:diff()} Block.\nGain {VigorPower:diff()} Vigor.",
   "VIOLETFLAME-CONVECTION.title": "Convection",
+  "VIOLETFLAME-COOL_OFF.description": "Draw {Cards:diff()} cards.\nLose 1 [gold]Strength[/gold].",
+  "VIOLETFLAME-COOL_OFF.title": "Cool Off",
   "VIOLETFLAME-CREATE_BONFIRE.description": "Deal {Damage:diff()} damage to ALL enemies.\nChoose 2 cards in your [gold]Draw Pile[/gold] to [gold]Transform[/gold] into [gold]{IfUpgraded:show:Fuel+:Fuel}[/gold].",
   "VIOLETFLAME-CREATE_BONFIRE.title": "Create Bonfire",
   "VIOLETFLAME-CREMATE.description": "Deal {Damage:diff()} damage.\nPut a card from your [gold]Discard Pile[/gold] into your [gold]Hand[/gold].\nIf [gold]Fatal[/gold], procure an [gold]Ashwater[/gold].",
