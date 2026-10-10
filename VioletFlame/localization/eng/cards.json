@@ -86,6 +86,8 @@
   "VIOLETFLAME-SMOKESCREEN.title": "Smokescreen",
   "VIOLETFLAME-STRIKE_VIOLET_FLAME.description": "Deal {Damage:diff()} damage.",
   "VIOLETFLAME-STRIKE_VIOLET_FLAME.title": "Strike",
+  "VIOLETFLAME-SWORD_COMBO.description": "If you have [gold]Vigor[/gold], gain {Energy:energyIcons()}.\nDeal {Damage:diff()} damage twice.",
+  "VIOLETFLAME-SWORD_COMBO.title": "Sword Combo",
   "VIOLETFLAME-TAKE_COVER.description": "Gain {Block:diff()} [gold]Block[/gold].\nLose 1 [gold]Strength[/gold].",
   "VIOLETFLAME-TAKE_COVER.title": "Take Cover",
   "VIOLETFLAME-VIOLET_FLAME_BLADE.description": "Deal {Damage:diff()} damage.\nIf Fatal, deal {Damage:diff} damage twice to ALL enemies.",
