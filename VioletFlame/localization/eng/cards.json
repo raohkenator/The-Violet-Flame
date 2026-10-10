@@ -56,6 +56,8 @@
   "VIOLETFLAME-KINDLING.title": "Kindling",
   "VIOLETFLAME-LAST_RESORT.description": "Deal {Damage:diff} damage {Repeat:diff()} times.\nIf [gold]Fatal[/gold], heal {Heal:diff()} HP. If your HP was 1, heal twice as much.\nYou cannot gain [gold]Block[/gold] from cards for 9 turns.",
   "VIOLETFLAME-LAST_RESORT.title": "Last Resort",
+  "VIOLETFLAME-LOOTING.description": "Deal {Damage:diff()} damage.\nDraw 1 card.\nDiscard 1 card.\nIf Fatal, gain {Gold:diff()} [gold]Gold[/gold].",
+  "VIOLETFLAME-LOOTING.title": "Looting",
   "VIOLETFLAME-MANTLE_OF_FLAME.description": "Gain {VigorPower:diff()} [gold]Vigor[/gold].\nWhenever you are attacked this turn, deal {DamageBack:diff()} damage back.",
   "VIOLETFLAME-MANTLE_OF_FLAME.title": "Mantle Of Flame",
   "VIOLETFLAME-MELT.description": "Apply {VulnerablePower:diff()} [melt]Vulnerable[/melt].\nApply {WeakPower:diff()} [gold]Weak[/gold].\nLose 1 [gold]Dexterity[/gold].",
