@@ -1,4 +1,6 @@
 {
+  "VIOLETFLAME-ADJUST_POSTURE.description": "Gain {Block:diff()} [gold]Block[/gold].\nIf your [gold]Dexterity[/gold] is {IfUpgraded:show:less than 3|negative}, gain 2 [gold]Dexterity[/gold].",
+  "VIOLETFLAME-ADJUST_POSTURE.title": "Adjust Posture",
   "VIOLETFLAME-ALL_OUT_OFFENSE.description": "Deal {Damage:diff()} damage {Repeat:diff()} times to ALL enemies.\nYou cannot gain [gold]Block[/gold] from cards for 2 turns.",
   "VIOLETFLAME-ALL_OUT_OFFENSE.title": "All-Out Offense",
   "VIOLETFLAME-ARMOR_BREAK.description": "Deal {Damage:diff()} damage.\nGain {FrailPower:diff()} [gold]Frail[/gold] and {VigorPower:diff()} [gold]Vigor[/gold].\nApply 3 [gold]Frail[/gold].",
