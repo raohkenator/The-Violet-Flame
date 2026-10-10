@@ -22,7 +22,10 @@ public class LastResort() : VioletFlameCard(1,
     
     protected override HashSet<CardTag> CanonicalTags => [VioletFlameTag.Fatal];
 
-    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.Static(StaticHoverTip.Block)];
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [
+        HoverTipFactory.Static(StaticHoverTip.Block),
+        HoverTipFactory.Static(StaticHoverTip.Fatal)
+    ];
 
     public override IEnumerable<CardKeyword> CanonicalKeywords => [];
 
