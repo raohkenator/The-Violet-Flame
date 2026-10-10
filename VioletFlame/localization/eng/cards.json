@@ -54,6 +54,8 @@
   "VIOLETFLAME-INVULNERABILITY.title": "Invulnerability",
   "VIOLETFLAME-KINDLING.description": "Choose a card in your [gold]Hand[/gold] to [gold]Transform[/gold] into [gold]{IfUpgraded:show:Fuel+|Fuel}[/gold].",
   "VIOLETFLAME-KINDLING.title": "Kindling",
+  "VIOLETFLAME-LAST_RESORT.description": "Deal {Damage:diff} damage {Repeat:diff()} times.\nIf [gold]Fatal[/gold], heal {Heal:diff()} HP. If your HP was 1, heal twice as much.\nYou cannot gain [gold]Block[/gold] from cards for 9 turns.",
+  "VIOLETFLAME-LAST_RESORT.title": "Last Resort",
   "VIOLETFLAME-MANTLE_OF_FLAME.description": "Gain {VigorPower:diff()} [gold]Vigor[/gold].\nWhenever you are attacked this turn, deal {DamageBack:diff()} damage back.",
   "VIOLETFLAME-MANTLE_OF_FLAME.title": "Mantle Of Flame",
   "VIOLETFLAME-MELT.description": "Apply {VulnerablePower:diff()} [melt]Vulnerable[/melt].\nApply {WeakPower:diff()} [gold]Weak[/gold].\nLose 1 [gold]Dexterity[/gold].",
@@ -82,5 +84,5 @@
   "VIOLETFLAME-VIOLET_FLAME_BLADE.title": "Violet Flame Blade",
   "VIOLETFLAME-ZWEI_HANDER.description": "Deal {Damage:diff()} damage.\nDraw {Cards:diff()} card(s).\nPut 1 {Cards:plural:card|cards} from your Hand on top of your Draw Pile.",
   "VIOLETFLAME-ZWEI_HANDER.selectionScreenPrompt": "Choose a card to put on top of your Draw Pile.",
-  "VIOLETFLAME-ZWEI_HANDER.title": "Zwei Hander"
+  "VIOLETFLAME-ZWEI_HANDER.title": "Zweihander"
 }
