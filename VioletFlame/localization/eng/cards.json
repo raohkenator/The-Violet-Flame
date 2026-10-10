@@ -40,6 +40,8 @@
   "VIOLETFLAME-DOUBLE_TAP.title": "Double Tap",
   "VIOLETFLAME-EXTRACT_FUEL.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], Procure a random potion.",
   "VIOLETFLAME-EXTRACT_FUEL.title": "Extract Fuel",
+  "VIOLETFLAME-FEINT.description": "Draw 2 cards.\nGain {VigorPower:diff()} [gold]Vigor[/gold].",
+  "VIOLETFLAME-FEINT.title": "Feint",
   "VIOLETFLAME-FINAL_STRIKE.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], gain {VigorPower:diff()} [gold]Vigor[/gold].\nOtherwise, DIE.",
   "VIOLETFLAME-FINAL_STRIKE.title": "Final Strike",
   "VIOLETFLAME-FIREBALL.description": "Deal {Damage:diff()} damage to ALL enemies.",
