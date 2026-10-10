@@ -76,6 +76,8 @@
   "VIOLETFLAME-READIED_STANCE.title": "Readied Stance",
   "VIOLETFLAME-RECKLESS_STRIKE.description": "Deal {Damage:diff()} damage.\nLose 2 [gold]Dexterity[/gold].",
   "VIOLETFLAME-RECKLESS_STRIKE.title": "Reckless Strike",
+  "VIOLETFLAME-ROAST.description": "Deal {Damage:diff()} damage {Repeat:diff()} times.",
+  "VIOLETFLAME-ROAST.title": "Roast",
   "VIOLETFLAME-SEAR.description": "Deal {Damage:diff()} damage {Repeat:diff()} times.",
   "VIOLETFLAME-SEAR.title": "Sear",
   "VIOLETFLAME-SMOKESCREEN.description": "Gain {Block:diff()} [gold]Block[/gold].\nGain 1 [gold]Poison[/gold].",
