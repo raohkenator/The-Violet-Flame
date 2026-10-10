@@ -78,6 +78,8 @@
   "VIOLETFLAME-RECKLESS_STRIKE.title": "Reckless Strike",
   "VIOLETFLAME-ROAST.description": "Deal {Damage:diff()} damage {Repeat:diff()} times.",
   "VIOLETFLAME-ROAST.title": "Roast",
+  "VIOLETFLAME-SCORCHING_RAY.description": "Deal {Damage:diff()} damage to a random enemy X+1 times.",
+  "VIOLETFLAME-SCORCHING_RAY.title": "Scorching Ray",
   "VIOLETFLAME-SEAR.description": "Deal {Damage:diff()} damage {Repeat:diff()} times.",
   "VIOLETFLAME-SEAR.title": "Sear",
   "VIOLETFLAME-SMOKESCREEN.description": "Gain {Block:diff()} [gold]Block[/gold].\nGain 1 [gold]Poison[/gold].",
