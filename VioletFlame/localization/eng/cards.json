@@ -46,6 +46,8 @@
   "VIOLETFLAME-FINAL_STRIKE.title": "Final Strike",
   "VIOLETFLAME-FIREBALL.description": "Deal {Damage:diff()} damage to ALL enemies.",
   "VIOLETFLAME-FIREBALL.title": "Fireball",
+  "VIOLETFLAME-FLAMESTRIDE.description": "[gold]Exhaust[/gold] 1 card from your [gold]Draw Pile[/gold].\nDraw {Cards:diff()} cards.\nYou cannot draw additional cards this turn.",
+  "VIOLETFLAME-FLAMESTRIDE.title": "Flamestride",
   "VIOLETFLAME-FORCE_OF_WILL.description": "Gain {CalculatedBlock:diff()} [gold]Block[/gold].\nGains additional [gold]Block[/gold] equal to twice your [gold]Vigor[/gold].\nLose all Vigor.",
   "VIOLETFLAME-FORCE_OF_WILL.title": "Force of Will",
   "VIOLETFLAME-HALF_PLATE.description": "Gain {Block:diff()} [gold]Block[/gold].\nGain 2 [gold]Plating[/gold].",
