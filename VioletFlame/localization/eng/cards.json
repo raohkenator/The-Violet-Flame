@@ -11,6 +11,8 @@
   "VIOLETFLAME-BLADE_OF_ASH.title": "Blade Of Ash",
   "VIOLETFLAME-BLITZ.description": "Deal {Damage:diff()} damage.\nLose 1 [gold]Strength[/gold].\nReturn this card to your hand.",
   "VIOLETFLAME-BLITZ.title": "Blitz",
+  "VIOLETFLAME-BODY_FUEL.description": "Gain {Energy:energyIcons()}.\nLose 1 [gold]Dexterity[/gold].",
+  "VIOLETFLAME-BODY_FUEL.title": "Body Fuel",
   "VIOLETFLAME-CHANGE_STANCE.description": "Lose 1 [gold]Strength[/gold] and [gold]Dexterity[/gold].\nGain {Energy:energyIcons()} at the start of each turn.",
   "VIOLETFLAME-CHANGE_STANCE.title": "Change Stance",
   "VIOLETFLAME-CLEAVE.description": "Deal {Damage:diff()} damage to ALL enemies.",
