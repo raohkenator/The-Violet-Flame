@@ -9,7 +9,7 @@ using MegaCrit.Sts2.Core.ValueProps;
 namespace VioletFlame.VioletFlameCode.Cards.Common;
 
 public class HalfPlate() : VioletFlameCard(1,
-    CardType.Skill, CardRarity.Basic,
+    CardType.Skill, CardRarity.Common,
     TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(4M, ValueProp.Move)];
