@@ -98,6 +98,8 @@
   "VIOLETFLAME-SCORCHING_RAY.title": "Scorching Ray",
   "VIOLETFLAME-SEAR.description": "Deal {Damage:diff()} damage {Repeat:diff()} times.",
   "VIOLETFLAME-SEAR.title": "Sear",
+  "VIOLETFLAME-SHIELD.description": "Gain {Block:diff()} [gold]Block[/gold].",
+  "VIOLETFLAME-SHIELD.title": "Shield",
   "VIOLETFLAME-SMOKESCREEN.description": "Gain {Block:diff()} [gold]Block[/gold].\nGain 1 [gold]Poison[/gold].",
   "VIOLETFLAME-SMOKESCREEN.title": "Smokescreen",
   "VIOLETFLAME-STRIKE_VIOLET_FLAME.description": "Deal {Damage:diff()} damage.",
