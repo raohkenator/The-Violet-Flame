@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5qk8y4ovhbgt"]
+
+[ext_resource type="Texture2D" uid="uid://b7vvn5oh6glb5" path="res://VioletFlame/images/charui/char_background_violet_flame.png" id="1_lj5os"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CharBackgroundVioletFlame" type="Sprite2D" parent="."]
+position = Vector2(1191, 535.99994)
+scale = Vector2(0.63633335, 0.47822222)
+texture = ExtResource("1_lj5os")
