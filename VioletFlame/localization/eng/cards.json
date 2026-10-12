@@ -114,6 +114,8 @@
   "VIOLETFLAME-TAKE_COVER.title": "Take Cover",
   "VIOLETFLAME-VIOLET_FLAME_BLADE.description": "Deal {Damage:diff()} damage.\nIf Fatal, deal {Damage:diff} damage twice to ALL enemies.",
   "VIOLETFLAME-VIOLET_FLAME_BLADE.title": "Violet Flame Blade",
+  "VIOLETFLAME-WAVE_OF_ASHES.description": "Gain {Block:diff()} [gold]Block[/gold].\nApply {Debuff:diff()} [gold]Vulnerable[/gold] and [gold]Weak[/gold] to ALL enemies.",
+  "VIOLETFLAME-WAVE_OF_ASHES.title": "Wave of Ashes",
   "VIOLETFLAME-ZWEI_HANDER.description": "Deal {Damage:diff()} damage.\nDraw {Cards:diff()} card(s).\nPut 1 {Cards:plural:card|cards} from your Hand on top of your Draw Pile.",
   "VIOLETFLAME-ZWEI_HANDER.selectionScreenPrompt": "Choose a card to put on top of your Draw Pile.",
   "VIOLETFLAME-ZWEI_HANDER.title": "Zweihander"
