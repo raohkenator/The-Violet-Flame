@@ -38,6 +38,8 @@
   "VIOLETFLAME-DEFEND_VIOLET_FLAME.title": "Defend",
   "VIOLETFLAME-DELAYED_BLAST_FIREBALL.description": "At the end of 2 turns, deal {BombDamage:diff()} damage to ALL enemies.",
   "VIOLETFLAME-DELAYED_BLAST_FIREBALL.title": "Delayed Blast Fireball",
+  "VIOLETFLAME-DESPERATE_MEASURE.description": "Each time you gain a debuff, gain {DesperateMeasurePower:diff()} [gold]Block[/gold].",
+  "VIOLETFLAME-DESPERATE_MEASURE.title": "Desperate Measure",
   "VIOLETFLAME-DISINTEGRATE.description": "Deal {Damage:diff()} damage.\nIf Fatal, gain 4 [gold]Plating[/gold].\nOtherwise, apply 2 [gold]Demise[/gold].",
   "VIOLETFLAME-DISINTEGRATE.title": "Disintegrate",
   "VIOLETFLAME-DOUBLE_TAP.description": "[gold]Fatal[/gold] cards have [gold]Replay[/gold] 1",
