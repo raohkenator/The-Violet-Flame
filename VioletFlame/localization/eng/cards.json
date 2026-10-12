@@ -82,6 +82,8 @@
   "VIOLETFLAME-MOLTEN_ARMOR.title": "Molten Armor",
   "VIOLETFLAME-MORDHAU.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], lose 7 [gold]Strength[/gold].",
   "VIOLETFLAME-MORDHAU.title": "Mordhau",
+  "VIOLETFLAME-OVEREXERT.description": "The next Attack and Skill you play each cost 0 {energyPrefix:energyIcons(1)}.\nGain {Debuff:diff()} [gold]Vulnerable[/gold], [gold]Weak[/gold], and [gold]Frail[/gold].",
+  "VIOLETFLAME-OVEREXERT.title": "Overexert",
   "VIOLETFLAME-PREHEAT.description": "Deal {Damage:diff()} damage.\nGain {VigorPower:diff()} [gold]Vigor[/gold].",
   "VIOLETFLAME-PREHEAT.title": "Preheat",
   "VIOLETFLAME-RAGNAROK.description": "Deal {Damage:diff()} damage to a random enemy {Repeat:diff()} times.",
