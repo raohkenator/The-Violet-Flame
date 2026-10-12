@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://1yhkyi8bkp51"
-path="res://.godot/imported/char_select_char_name.png-f8da2f1a7195300f77dfb57b53c2748f.ctex"
+uid="uid://td4rd84o6cm"
+path="res://.godot/imported/char_select_violet_flame.png-581d5d7cf7ef3f185e961b6a6432ba4e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://VioletFlame/images/charui/char_select_char_name.png"
-dest_files=["res://.godot/imported/char_select_char_name.png-f8da2f1a7195300f77dfb57b53c2748f.ctex"]
+source_file="res://VioletFlame/images/charui/char_select_violet_flame.png"
+dest_files=["res://.godot/imported/char_select_violet_flame.png-581d5d7cf7ef3f185e961b6a6432ba4e.ctex"]
 
 [params]
 
