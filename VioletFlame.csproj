@@ -63,7 +63,6 @@
 
     <ItemGroup>
         <Folder Include="VioletFlameCode\Patches\" />
-        <Folder Include="VioletFlame\images\card_portraits\big\"/>
         <Folder Include="VioletFlame\images\powers\big\"/>
         <Folder Include="VioletFlame\images\relics\big\"/>
     </ItemGroup>
