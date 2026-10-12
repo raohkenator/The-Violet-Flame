@@ -1,4 +1,7 @@
 {
+  "VIOLETFLAME-BLOODLUST_POWER.description": "Whenever an enemy dies, gain {Amound:energyIcons()} and draw {Amount} card",
+  "VIOLETFLAME-BLOODLUST_POWER.smartDescription": "Whenever an enemy dies, gain [blue]1[/blue] [gold]Energy[/gold] and draw [blue]1[/blue] card",
+  "VIOLETFLAME-BLOODLUST_POWER.title": "Bloodlust Power",
   "VIOLETFLAME-CHANGE_STANCE_POWER.description": "At the start of your turn, gain [blue]1[/blue] [Gold]Energy[/Gold].",
   "VIOLETFLAME-CHANGE_STANCE_POWER.smartDescription": "At the start of your turn, gain {Amount:energyIcons()}.",
   "VIOLETFLAME-CHANGE_STANCE_POWER.title": "Change Stance",
