@@ -8,6 +8,7 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.ValueProps;
 using VioletFlame.VioletFlameCode.Cards;
+using VioletFlame.VioletFlameCode.Utils;
 
 namespace VioletFlame.VioletFlameCode.Cards.Uncommon;
 
@@ -23,10 +24,8 @@ public class Hellfire() : VioletFlameCard(1,
     public override IEnumerable<CardKeyword> CanonicalKeywords => [];
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [
-        new CalculationBaseVar(14M),
-        new ExtraDamageVar(3M),
-        //  new CalculatedDamageVar(ValueProp.Move).WithMultiplier((card, _) => (card.Owner.Creature.GetPowerAmount<StrengthPower>().LessThan(0) ? -(card.Owner.Creature.GetPowerAmount<StrengthPower>())  : 0))
-        new CalculatedDamageVar(ValueProp.Move).WithMultiplier((card, _) => -Math.Min(0, card.Owner.Creature.GetPowerAmount<StrengthPower>()))
+        new DamageVar(14M, ValueProp.Move),
+        new InvertUtils.StrengthMultVar(-3M)
     ];
     
     protected override async Task OnPlay(
@@ -34,7 +33,7 @@ public class Hellfire() : VioletFlameCard(1,
         CardPlay play)
     {
         ArgumentNullException.ThrowIfNull(play.Target);
-        await DamageCmd.Attack(DynamicVars.CalculatedDamage.Calculate(Owner.Creature) - Math.Min(0, Owner.Creature.GetPowerAmount<StrengthPower>()))
+        await DamageCmd.Attack(DynamicVars.Damage.BaseValue)
             .FromCard(this, play)
             .Targeting(play.Target)
             .Execute(choiceContext);
@@ -42,6 +41,6 @@ public class Hellfire() : VioletFlameCard(1,
 
     protected override void OnUpgrade()
     {
-        DynamicVars.ExtraDamage.UpgradeValueBy(2M);
+        DynamicVars["StrMult"].UpgradeValueBy(-2);
     }
 }
