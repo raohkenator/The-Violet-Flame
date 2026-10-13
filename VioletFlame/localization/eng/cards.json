@@ -124,7 +124,7 @@
   "VIOLETFLAME-SEAR.title": "Sear",
   "VIOLETFLAME-SHIELD.description": "Gain {Block:diff()} [gold]Block[/gold].",
   "VIOLETFLAME-SHIELD.title": "Shield",
-  "VIOLETFLAME-SHORT_REST.description": "Lose all {IfUpgraded:show:debuffs|negative [gold]Strength[/gold] and [gold]Dexterity[/gold]}.",
+  "VIOLETFLAME-SHORT_REST.description": "Lose all {IfUpgraded:show:debuffs|negative [gold]Strength[/gold] and [gold]Dexterity[/gold]}.\nHeal 7 HP.",
   "VIOLETFLAME-SHORT_REST.title": "Short Rest",
   "VIOLETFLAME-SMOKESCREEN.description": "Gain {Block:diff()} [gold]Block[/gold].\nGain 1 [gold]Poison[/gold].",
   "VIOLETFLAME-SMOKESCREEN.title": "Smokescreen",
