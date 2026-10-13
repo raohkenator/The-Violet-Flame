@@ -6,7 +6,7 @@
   "VIOLETFLAME-CHANGE_STANCE_POWER.smartDescription": "At the start of your turn, gain {Amount:energyIcons()}.",
   "VIOLETFLAME-CHANGE_STANCE_POWER.title": "Change Stance",
   "VIOLETFLAME-DELAYED_BLAST_FIREBALL_POWER.description": "At the end of [blue]2[/blue] turns, deal [blue]28[/blue] damage to ALL enemies.",
-  "VIOLETFLAME-DELAYED_BLAST_FIREBALL_POWER.smartDescription": "At the end of {Amount:plural:this turns|[blue]{}[/blue] turns}, deal [blue]{Damage}[/blue] damage to ALL enemies.",
+  "VIOLETFLAME-DELAYED_BLAST_FIREBALL_POWER.smartDescription": "At the end of {Amount:plural:this turn|[blue]{}[/blue] turns}, deal [blue]{Damage}[/blue] damage to ALL enemies.",
   "VIOLETFLAME-DELAYED_BLAST_FIREBALL_POWER.title": "Delayed Blast Fireball",
   "VIOLETFLAME-DESPERATE_MEASURE_POWER.description": "Each time you gain a debuff, gain [blue]3[/blue] [gold]Block[/gold].",
   "VIOLETFLAME-DESPERATE_MEASURE_POWER.smartDescription": "Each time you gain a debuff, gain {Amount} [gold]Block[/gold].",

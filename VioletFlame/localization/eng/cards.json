@@ -94,7 +94,7 @@
   "VIOLETFLAME-MANTLE_OF_FLAME.title": "Mantle Of Flame",
   "VIOLETFLAME-MEASURING_BLADE_REACH.description": "Deal {Damage:diff()} damage.\nIf your [gold]Strength[/gold] is {IfUpgraded:show:less than 3|negative}, gain 2 [gold]Strength[/gold].",
   "VIOLETFLAME-MEASURING_BLADE_REACH.title": "Measuring Blade Reach",
-  "VIOLETFLAME-MELT.description": "Apply {VulnerablePower:diff()} [melt]Vulnerable[/melt].\nApply {WeakPower:diff()} [gold]Weak[/gold].\nLose 1 [gold]Dexterity[/gold].",
+  "VIOLETFLAME-MELT.description": "Apply {VulnerablePower:diff()} [gold]Vulnerable[/gold].\nApply {WeakPower:diff()} [gold]Weak[/gold].\nLose 1 [gold]Dexterity[/gold].",
   "VIOLETFLAME-MELT.title": "Melt",
   "VIOLETFLAME-MOLTEN_ARMOR.description": "Gain {Block:diff()} [gold]Block[/gold].\nGain {VigorPower:diff()} [gold]Vigor[/gold].",
   "VIOLETFLAME-MOLTEN_ARMOR.title": "Molten Armor",
