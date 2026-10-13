@@ -19,7 +19,7 @@ public class PursuitPower() : VioletFlamePower
     public override async Task AfterCardPlayed(PlayerChoiceContext choiceContext, CardPlay play)
     {
         ArgumentNullException.ThrowIfNull(Owner.Player);
-        if (!play.Card.IsFatalCard() || play.Card.Type != CardType.Attack)
+        if (!play.Card.IsFatalCard() || play.Card.Type != CardType.Attack || play.Card.Owner != Owner.Player)
             return;
         await CardPileCmd.Draw(choiceContext, Amount, Owner.Player);
     }
