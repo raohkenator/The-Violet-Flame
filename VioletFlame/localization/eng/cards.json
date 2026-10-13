@@ -96,6 +96,8 @@
   "VIOLETFLAME-OVEREXERT.title": "Overexert",
   "VIOLETFLAME-PREHEAT.description": "Deal {Damage:diff()} damage.\nGain {VigorPower:diff()} [gold]Vigor[/gold].",
   "VIOLETFLAME-PREHEAT.title": "Preheat",
+  "VIOLETFLAME-PURSUIT.description": "When you play a [gold]Fatal[/gold] Attack, draw 1 card.",
+  "VIOLETFLAME-PURSUIT.title": "Pursuit",
   "VIOLETFLAME-RAGNAROK.description": "Deal {Damage:diff()} damage to a random enemy {Repeat:diff()} times.",
   "VIOLETFLAME-RAGNAROK.title": "Ragnarok",
   "VIOLETFLAME-READIED_STANCE.description": "Gain {VigorPower:diff()} [gold]Vigor[/gold].\nNext turn, gain {Energy:energyIcons()}",

@@ -18,6 +18,9 @@
   "VIOLETFLAME-EMBER_POWER.smartDescription": "When you spend [gold]Vigor[/gold], regain half the amount spent.",
   "VIOLETFLAME-EMBER_POWER.title": "Ember",
   "VIOLETFLAME-NOURISHING_FIRE_POWER.description": "Each time you gain a debuff, Heal {Amount}",
-  "VIOLETFLAME-NOURISHING_FIRE_POWER.smartDescription": "Each time you gain a debuff, Heal 2",
-  "VIOLETFLAME-NOURISHING_FIRE_POWER.title": "Nourishing Fire"
+  "VIOLETFLAME-NOURISHING_FIRE_POWER.smartDescription": "Each time you gain a debuff, Heal [blue]2[/blue]",
+  "VIOLETFLAME-NOURISHING_FIRE_POWER.title": "Nourishing Fire",
+  "VIOLETFLAME-PURSUIT_POWER.description": "When you play a [gold]Fatal[/gold] Attack, draw {Amount} card.",
+  "VIOLETFLAME-PURSUIT_POWER.smartDescription": "When you play a [gold]Fatal[/gold] Attack, draw [blue]1[/blue] card.",
+  "VIOLETFLAME-PURSUIT_POWER.title": "Pursuit"
 }
