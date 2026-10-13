@@ -11,7 +11,7 @@ namespace VioletFlame.VioletFlameCode.Cards.Uncommon;
 
 public class CoverMe() : VioletFlameCard(0,
     CardType.Skill, CardRarity.Rare,
-    TargetType.Self)
+    TargetType.AnyAlly)
 {
     public override CardMultiplayerConstraint MultiplayerConstraint => CardMultiplayerConstraint.MultiplayerOnly;
     
