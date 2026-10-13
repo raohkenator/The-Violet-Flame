@@ -104,6 +104,8 @@
   "VIOLETFLAME-READIED_STANCE.title": "Readied Stance",
   "VIOLETFLAME-RECKLESS_STRIKE.description": "Deal {Damage:diff()} damage.\nLose 2 [gold]Dexterity[/gold].",
   "VIOLETFLAME-RECKLESS_STRIKE.title": "Reckless Strike",
+  "VIOLETFLAME-RISING_HEAT.description": "At the start of your turn, gain {RisingHeatPower:diff()} [gold]Vigor[/gold]",
+  "VIOLETFLAME-RISING_HEAT.title": "Rising Heat",
   "VIOLETFLAME-ROAST.description": "Deal {Damage:diff()} damage {Repeat:diff()} times.",
   "VIOLETFLAME-ROAST.title": "Roast",
   "VIOLETFLAME-SCORCHING_RAY.description": "Deal {Damage:diff()} damage to a random enemy X+1 times.",
