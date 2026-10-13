@@ -11,7 +11,7 @@ namespace VioletFlame.VioletFlameCode.Cards.Uncommon;
 
 public class InspiringStrike() : VioletFlameCard(2,
     CardType.Attack, CardRarity.Rare,
-    TargetType.AllEnemies)
+    TargetType.AnyEnemy)
 {
     public override CardMultiplayerConstraint MultiplayerConstraint => CardMultiplayerConstraint.MultiplayerOnly;
     
