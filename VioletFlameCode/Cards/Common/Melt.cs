@@ -32,7 +32,7 @@ public class Melt() : VioletFlameCard(1,
     {
         ArgumentNullException.ThrowIfNull(play.Target);
         await PowerCmd.Apply<VulnerablePower>(choiceContext, play.Target, DynamicVars["VulnerablePower"].BaseValue, Owner.Creature, this);
-        await PowerCmd.Apply<FrailPower>(choiceContext, play.Target, DynamicVars["WeakPower"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<WeakPower>(choiceContext, play.Target, DynamicVars["WeakPower"].BaseValue, Owner.Creature, this);
         await PowerCmd.Apply<DexterityPower>(choiceContext, Owner.Creature, -1M, Owner.Creature, this);
     }
 
