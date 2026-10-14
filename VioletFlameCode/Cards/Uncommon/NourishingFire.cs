@@ -23,7 +23,7 @@ public class NourishingFire() : VioletFlameCard(2,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        await PowerCmd.Apply<NourishingFirePower>(choiceContext, Owner.Creature, DynamicVars["NourishingFire"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<NourishingFirePower>(choiceContext, Owner.Creature, DynamicVars["NourishingFirePower"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
