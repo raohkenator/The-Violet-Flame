@@ -42,7 +42,7 @@ public class BladeOfAsh() : VioletFlameCard(1,
         }
     }
     
-    protected override HashSet<MegaCrit.Sts2.Core.Entities.Cards.CardTag> CanonicalTags => [CardTag.Defend, VioletFlameTag.Fatal];
+    protected override HashSet<CardTag> CanonicalTags => [VioletFlameTag.Fatal];
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [
     new DamageVar(this.CurrentDamage, ValueProp.Move),
