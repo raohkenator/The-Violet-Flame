@@ -27,7 +27,7 @@ public class EmberPower() : VioletFlamePower
 
     public override async Task AfterCardPlayed(PlayerChoiceContext choiceContext, CardPlay play)
     {
-        if (play.Card.Type != CardType.Attack)
+        if (play.Card.Type != CardType.Attack || play.Player.Creature != Owner)
             return;
         await PowerCmd.Apply<VigorPower>(choiceContext, Owner, _vigorCount, null, null);
     }
