@@ -110,6 +110,8 @@
   "VIOLETFLAME-MORDHAU.title": "Mordhau",
   "VIOLETFLAME-NOURISHING_FIRE.description": "Each time you gain a debuff, Heal {NourishingFirePower:diff()}",
   "VIOLETFLAME-NOURISHING_FIRE.title": "Nourishing Fire",
+  "VIOLETFLAME-OVERCOME.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], Heal for 50% of your Max HP.",
+  "VIOLETFLAME-OVERCOME.title": "Overcome",
   "VIOLETFLAME-OVEREXERT.description": "The next Attack and Skill you play each cost 0 {energyPrefix:energyIcons(1)}.\nGain {Debuff:diff()} [gold]Vulnerable[/gold], [gold]Weak[/gold], and [gold]Frail[/gold].",
   "VIOLETFLAME-OVEREXERT.title": "Overexert",
   "VIOLETFLAME-PREHEAT.description": "Deal {Damage:diff()} damage.\nGain {VigorPower:diff()} [gold]Vigor[/gold].",
