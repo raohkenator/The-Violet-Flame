@@ -1,6 +1,24 @@
 {
-  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.0-0r.char": "I am angry at the architect",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.0-0r.char": "Nice place you got here~.",
   "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.0-0r.next": "Continue",
-  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.0-1r.ancient": "You die",
-  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.0-attack": "Both"
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.0-1r.ancient": "No, you may not burn it down.",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.0-1r.next": "Continue",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.0-2r.char": "... I wasn’t going to ask that.",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.0-2r.next": "Continue",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.0-3r.ancient": "Yes, I can believe that you weren’t going to ask first.",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.0-attack": "Both",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.1-0r.char": "Jokes on you, I can survive fatal damage!",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.1-0r.next": "Continue",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.1-1r.ancient": "Then I will kill you again, when you return.",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.1-attack": "Both",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.2-0r.ancient": "Why are you even here? Just to burn the Spire to its roots?",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.2-0r.next": "Continue",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.2-1r.char": "I’m always looking for strong opponents. Fight me!",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.2-1r.next": "Continue",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.2-2r.ancient": "And I’m always busy. Go away.",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.2-attack": "Both",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.3-0r.char": "What a fraud, needing a cutscene to win.",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.3-0r.next": "Continue",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.3-1r.ancient": "And you need a mod to be here in the first place.",
+  "THE_ARCHITECT.talk.VIOLETFLAME-VIOLET_FLAME.3-attack": "Both"
 }
