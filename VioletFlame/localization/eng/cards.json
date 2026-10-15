@@ -19,6 +19,8 @@
   "VIOLETFLAME-BODY_FUEL.title": "Body Fuel",
   "VIOLETFLAME-BRANDING_SMITE.description": "Deal {Damage:diff()} damage.\nThe enemy takes {IfUpgraded:show:triple|double} damage from other players this turn.",
   "VIOLETFLAME-BRANDING_SMITE.title": "Branding Smite",
+  "VIOLETFLAME-BRAWL.description": "Play 1 random Attack each from your [gold]Draw Pile[/gold], [gold]Discard Pile[/gold], and [gold]Hand[/gold].",
+  "VIOLETFLAME-BRAWL.title": "Brawl",
   "VIOLETFLAME-CAUTERIZE.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], you may remove a card from your Deck at the end of combat.",
   "VIOLETFLAME-CAUTERIZE.title": "Cauterize",
   "VIOLETFLAME-CHANGE_STANCE.description": "Lose 1 [gold]Strength[/gold] and [gold]Dexterity[/gold].\nGain {Energy:energyIcons()} at the start of each turn.",
