@@ -27,6 +27,7 @@ public static class DexterityPatch {
             dexMult += bass;
             variable ??= b ? (InvertUtils.DexterityMultVar)vb : null;
         }
+        dexMult = 1;
         return b;
     }
 }

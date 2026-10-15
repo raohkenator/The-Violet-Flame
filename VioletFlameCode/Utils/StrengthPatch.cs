@@ -27,6 +27,7 @@ public static class StrengthPatch {
             strMult += bass;
             variable ??= b ? (InvertUtils.StrengthMultVar) vb : null;
         }
+        strMult = 1;
         return b;
     }
 }
