@@ -150,6 +150,8 @@
   "VIOLETFLAME-SWORD_COMBO.title": "Sword Combo",
   "VIOLETFLAME-TAKE_COVER.description": "Gain {Block:diff()} [gold]Block[/gold].\nLose 1 [gold]Strength[/gold].",
   "VIOLETFLAME-TAKE_COVER.title": "Take Cover",
+  "VIOLETFLAME-VOLCANIC_ASH.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], Upgrade a random card in your deck.",
+  "VIOLETFLAME-VOLCANIC_ASH.title": "Volcanic Ash",
   "VIOLETFLAME-VIOLET_FLAME_BLADE.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], deal {Damage:diff} damage twice to ALL enemies.",
   "VIOLETFLAME-VIOLET_FLAME_BLADE.title": "Violet Flame Blade",
   "VIOLETFLAME-WAVE_OF_ASHES.description": "Gain {Block:diff()} [gold]Block[/gold].\nApply {Debuff:diff()} [gold]Vulnerable[/gold] and [gold]Weak[/gold] to ALL enemies.",
