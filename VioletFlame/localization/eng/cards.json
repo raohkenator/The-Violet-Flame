@@ -19,6 +19,8 @@
   "VIOLETFLAME-BODY_FUEL.title": "Body Fuel",
   "VIOLETFLAME-BRANDING_SMITE.description": "Deal {Damage:diff()} damage.\nThe enemy takes {IfUpgraded:show:triple|double} damage from other players this turn.",
   "VIOLETFLAME-BRANDING_SMITE.title": "Branding Smite",
+  "VIOLETFLAME-CAUTERIZE.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], you may remove a card from your Deck at the end of combat.",
+  "VIOLETFLAME-CAUTERIZE.title": "Cauterize",
   "VIOLETFLAME-CHANGE_STANCE.description": "Lose 1 [gold]Strength[/gold] and [gold]Dexterity[/gold].\nGain {Energy:energyIcons()} at the start of each turn.",
   "VIOLETFLAME-CHANGE_STANCE.title": "Change Stance",
   "VIOLETFLAME-CLEAVE.description": "Deal {Damage:diff()} damage to ALL enemies.",
