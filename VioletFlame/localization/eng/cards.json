@@ -115,6 +115,8 @@
   "VIOLETFLAME-OVEREXERT.description": "The next Attack and Skill you play each cost 0 {energyPrefix:energyIcons(1)}.\nGain {Debuff:diff()} [gold]Vulnerable[/gold], [gold]Weak[/gold], and [gold]Frail[/gold].",
   "VIOLETFLAME-OVEREXERT.title": "Overexert",
   "VIOLETFLAME-PREHEAT.description": "Deal {Damage:diff()} damage.\nGain {VigorPower:diff()} [gold]Vigor[/gold].",
+  "VIOLETFLAME-PARTING_SHOT.description": "Deal damage equal to your missing HP.{InCombat:\n({CalculatedDamage:diff() Damage})|}\n{IfUpgraded:show:Lose all but 1 HP|Die}.",
+  "VIOLETFLAME-PARTING_SHOT.title": "Parting Shot",
   "VIOLETFLAME-PREHEAT.title": "Preheat",
   "VIOLETFLAME-PURSUIT.description": "When you play a [gold]Fatal[/gold] Attack, draw 1 card.",
   "VIOLETFLAME-PURSUIT.title": "Pursuit",
