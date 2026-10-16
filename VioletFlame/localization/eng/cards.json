@@ -135,6 +135,8 @@
   "VIOLETFLAME-OVEREXERT.title": "Overexert",
   "VIOLETFLAME-PARTING_SHOT.description": "Deal damage equal to your missing HP.{InCombat:\n({CalculatedDamage:diff() Damage})|}\n{IfUpgraded:show:Lose all but 1 HP|Die}.",
   "VIOLETFLAME-PARTING_SHOT.title": "Parting Shot",
+  "VIOLETFLAME-POWER_UP.description": "Gain {VigorPower:diff()} [gold]Vigor[/gold] X times.\nNext turn, draw 2 cards and gain {Energy:energyIcons()}.",
+  "VIOLETFLAME-POWER_UP.title": "Power Up",
   "VIOLETFLAME-PREHEAT.description": "Deal {Damage:diff()} damage.\nGain {VigorPower:diff()} [gold]Vigor[/gold].",
   "VIOLETFLAME-PREHEAT.title": "Preheat",
   "VIOLETFLAME-PROTOGEN_BODY.description": "Deal {Damage:diff()} damage.\nGain 1 [gold]Artifact[/gold].",
