@@ -61,6 +61,8 @@
   "VIOLETFLAME-DIVINE_INTERVENTION.description": "Divine Choose a card in your [gold]draw pile[/gold].\nPlay the chosen card twice and Exhaust it.Intervention",
   "VIOLETFLAME-DIVINE_INTERVENTION.selectionScreenPrompt": "Select a card to play twice.",
   "VIOLETFLAME-DIVINE_INTERVENTION.title": "Divine Intervention",
+  "VIOLETFLAME-DIVINE_SMITE.description": "If the enemy has {DamageThreshold:diff()} or less HP, set their HP to 0.",
+  "VIOLETFLAME-DIVINE_SMITE.title": "Divine Smite",
   "VIOLETFLAME-DOUBLE_TAP.description": "[gold]Fatal[/gold] cards have [gold]Replay[/gold] 1",
   "VIOLETFLAME-DOUBLE_TAP.title": "Double Tap",
   "VIOLETFLAME-EMBER.description": "When you spend [gold]Vigor[/gold], regain half the amount spent.",
