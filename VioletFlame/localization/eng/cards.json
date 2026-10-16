@@ -109,6 +109,8 @@
   "VIOLETFLAME-LAST_RESORT.title": "Last Resort",
   "VIOLETFLAME-LAY_ON_HANDS.description": "Give another player {RegenPower:diff()} [gold]Regen[/gold].",
   "VIOLETFLAME-LAY_ON_HANDS.title": "Lay on Hands",
+  "VIOLETFLAME-LEVEL_UP.description": "Double your [gold]Strength[/gold].",
+  "VIOLETFLAME-LEVEL_UP.title": "Level Up",
   "VIOLETFLAME-LOOTING.description": "Deal {Damage:diff()} damage.\nDraw 1 card.\nDiscard 1 card.\nIf [gold]Fatal[/gold], gain {Gold:diff()} [gold]Gold[/gold].",
   "VIOLETFLAME-LOOTING.title": "Looting",
   "VIOLETFLAME-MAGE_ARMOR.description": "Gain {Block:diff()} [gold]Block[/gold].\nIf your [gold]Dexterity[/gold] is negative, [gold]Dexterity[/gold] affects this card {DexMult:diff()} times.",
