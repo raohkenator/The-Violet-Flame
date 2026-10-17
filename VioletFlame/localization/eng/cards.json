@@ -65,6 +65,8 @@
   "VIOLETFLAME-DIVINE_SMITE.title": "Divine Smite",
   "VIOLETFLAME-DOUBLE_TAP.description": "[gold]Fatal[/gold] cards have [gold]Replay[/gold] 1",
   "VIOLETFLAME-DOUBLE_TAP.title": "Double Tap",
+  "VIOLETFLAME-ELEMENTAL_FORM.description": "At the start of your turn, gain 3 [gold]Strength[/gold] and 1 [gold]Demise[/gold].\nEach time you gain a debuff, gain 7 [gold]Vigor[/gold].",
+  "VIOLETFLAME-ELEMENTAL_FORM.title": "Elemental Form",
   "VIOLETFLAME-EMBER.description": "When you spend [gold]Vigor[/gold], regain half the amount spent.",
   "VIOLETFLAME-EMBER.title": "Ember",
   "VIOLETFLAME-EXTRACT_FUEL.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], Procure a random potion.",
