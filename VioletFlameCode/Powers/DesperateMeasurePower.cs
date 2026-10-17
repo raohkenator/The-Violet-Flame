@@ -20,7 +20,7 @@ public class DesperateMeasurePower() : VioletFlamePower
     public override async Task AfterPowerAmountChanged(PlayerChoiceContext choiceContext, PowerModel power, decimal amount, Creature? applier,
         CardModel? cardSource)
     {
-        if (power.GetTypeForAmount(amount) == PowerType.Debuff)
+        if (power.GetTypeForAmount(amount) == PowerType.Debuff && power.Owner == Owner)
             await CreatureCmd.GainBlock(Owner, Amount, ValueProp.Move, null);
     }
 
