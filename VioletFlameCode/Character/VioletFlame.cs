@@ -39,7 +39,7 @@ public class VioletFlame : PlaceholderCharacterModel
     [
         ModelDb.Relic<PhoenixSpark>()
     ];
-
+    
     public override CardPoolModel CardPool => ModelDb.CardPool<VioletFlameCardPool>();
     public override RelicPoolModel RelicPool => ModelDb.RelicPool<VioletFlameRelicPool>();
     public override PotionPoolModel PotionPool => ModelDb.PotionPool<VioletFlamePotionPool>();
