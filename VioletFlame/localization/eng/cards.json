@@ -89,6 +89,8 @@
   "VIOLETFLAME-GRAPPLE.title": "Grapple",
   "VIOLETFLAME-HALF_PLATE.description": "Gain {Block:diff()} [gold]Block[/gold].\nGain 2 [gold]Plating[/gold].",
   "VIOLETFLAME-HALF_PLATE.title": "Half-Plate",
+  "VIOLETFLAME-HASTE.description": "Gain 5 [gold]Dexterity[/gold].\nAt the start of your turn, lose 1 [gold]Dexterity[/gold].",
+  "VIOLETFLAME-HASTE.title": "Haste",
   "VIOLETFLAME-HEAL.description": "Gain 5 [gold]Regen[/gold].",
   "VIOLETFLAME-HEAL.title": "Heal",
   "VIOLETFLAME-HEAT_METAL.description": "Apply {FrailPower:diff()} [gold]Frail[/gold], {DemisePower:diff()} [gold]Demise[/gold], and 1 [gold]Thorns[/gold].",
