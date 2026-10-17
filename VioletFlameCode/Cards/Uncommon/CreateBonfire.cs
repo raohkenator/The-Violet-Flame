@@ -37,7 +37,7 @@ public class CreateBonfire() : VioletFlameCard(1,
             .Targeting(play.Target)
             .Execute(choiceContext);
 
-        List<CardModel> selection = (await CardSelectCmd.FromCombatPile(choiceContext, PileType.Deck.GetPile(Owner), Owner,
+        List<CardModel> selection = (await CardSelectCmd.FromCombatPile(choiceContext, PileType.Draw.GetPile(Owner), Owner,
             new CardSelectorPrefs(CardSelectorPrefs.TransformSelectionPrompt, 2))).ToList();
 
         foreach (CardModel original in selection)
