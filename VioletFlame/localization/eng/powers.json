@@ -34,5 +34,11 @@
   "VIOLETFLAME-NOURISHING_FIRE_POWER.title": "Nourishing Fire",
   "VIOLETFLAME-PURSUIT_POWER.description": "When you play a [gold]Fatal[/gold] Attack, draw {Amount} card.",
   "VIOLETFLAME-PURSUIT_POWER.smartDescription": "When you play a [gold]Fatal[/gold] Attack, draw [blue]1[/blue] card.",
-  "VIOLETFLAME-PURSUIT_POWER.title": "Pursuit"
+  "VIOLETFLAME-PURSUIT_POWER.title": "Pursuit",
+  "VIOLETFLAME-WARMTH_OF_THE4TH_MATCH_POWER.description": "The [blue]4[/blue]th Attack you play each turn deals [blue]4[/blue]x damage.",
+  "VIOLETFLAME-WARMTH_OF_THE4TH_MATCH_POWER.smartDescription": "The 4th Attack you play each turn deals 4x damage. (upgrade removes “each turn”)",
+  "VIOLETFLAME-WARMTH_OF_THE4TH_MATCH_POWER.title": "4th Match Flame",
+  "VIOLETFLAME-WARMTH_OF_THE4TH_MATCH_PLUS_POWER.description": "Every [blue]4[/blue]th Attack you play deals [blue]4[/blue]x damage.",
+  "VIOLETFLAME-WARMTH_OF_THE4TH_MATCH_PLUS_POWER.smartDescription": "Every 4th Attack you play deals 4x damage.",
+  "VIOLETFLAME-WARMTH_OF_THE4TH_MATCH_PLUS_POWER.title": "4th Match Flame+"
 }

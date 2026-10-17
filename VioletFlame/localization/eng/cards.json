@@ -187,6 +187,8 @@
   "VIOLETFLAME-VOLCANIC_ASH.title": "Volcanic Ash",
   "VIOLETFLAME-VIOLET_FLAME_BLADE.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], deal {Damage:diff} damage twice to ALL enemies.",
   "VIOLETFLAME-VIOLET_FLAME_BLADE.title": "Violet Flame Blade",
+  "VIOLETFLAME-WARMTH_OF_THE4TH_MATCH.description": "The 4th Attack you play {IfUpgraded:show:|each turn} deals 4x damage.",
+  "VIOLETFLAME-WARMTH_OF_THE4TH_MATCH.title": "Warmth of the 4th Match",
   "VIOLETFLAME-WAVE_OF_ASHES.description": "Gain {Block:diff()} [gold]Block[/gold].\nApply {Debuff:diff()} [gold]Vulnerable[/gold] and [gold]Weak[/gold] to ALL enemies.",
   "VIOLETFLAME-WAVE_OF_ASHES.title": "Wave of Ashes",
   "VIOLETFLAME-WREATHE_OF_FLAME.description": "Gain {VigorPower:diff()} [gold]Vigor[/gold].",
