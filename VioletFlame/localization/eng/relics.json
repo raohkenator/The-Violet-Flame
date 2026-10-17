@@ -1,6 +1,8 @@
 {
-  "VIOLETFLAME-PHOENIX_SPARK.description": "When your HP would be reduced to 0, heal to 1 HP instead and deal 5 damage to ALL enemies (works once per combat).",
+  "VIOLETFLAME-FORM_OF_THE_PHOENIX.description": "When your HP would be reduced to [green]0[/green], heal to [green]1[/green] HP instead, deal [blue]35[/blue] damage to ALL enemies, and gain [gold]From the Ashes[/gold] (works once per combat).",
+  "VIOLETFLAME-FORM_OF_THE_PHOENIX.flavor": "",
+  "VIOLETFLAME-FORM_OF_THE_PHOENIX.title": "Form of the Phoenix",
+  "VIOLETFLAME-PHOENIX_SPARK.description": "When your HP would be reduced to [green]0[/green], heal to [green]1[/green] HP instead and deal [blue]5[/blue] damage to ALL enemies (works once per combat).",
   "VIOLETFLAME-PHOENIX_SPARK.flavor": "Did you forget something~",
   "VIOLETFLAME-PHOENIX_SPARK.title": "Phoenix Spark"
-
 }
