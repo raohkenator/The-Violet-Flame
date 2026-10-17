@@ -47,6 +47,7 @@ public class Looting() : VioletFlameCard(1,
             new CardSelectorPrefs(CardSelectorPrefs.DiscardSelectionPrompt, 1), null, this)).FirstOrDefault();
         if (card == null)
             return;
+        await CardCmd.Discard(choiceContext, card);
         
         if (killed)
         {
