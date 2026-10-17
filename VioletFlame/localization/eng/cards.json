@@ -75,6 +75,8 @@
   "VIOLETFLAME-FEINT.title": "Feint",
   "VIOLETFLAME-FINAL_STRIKE.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], gain {VigorPower:diff()} [gold]Vigor[/gold].\nOtherwise, DIE.",
   "VIOLETFLAME-FINAL_STRIKE.title": "Final Strike",
+  "VIOLETFLAME-FIRE_IMMUNITY.description": "When you shuffle your [gold]Draw Pile[/gold], add {Burn:diff()} [gold]Burns[/gold] to your [gold]Draw Pile[/gold].\nWhen you draw a [gold]Burn[/gold], [gold]Exhaust[/gold] it, draw a card, and gain {Block:diff()} [gold]Block[/gold].",
+  "VIOLETFLAME-FIRE_IMMUNITY.title": "Fire Immunity",
   "VIOLETFLAME-FIREBALL.description": "Deal {Damage:diff()} damage to ALL enemies.",
   "VIOLETFLAME-FIREBALL.title": "Fireball",
   "VIOLETFLAME-FLAMESTRIDE.description": "[gold]Exhaust[/gold] 1 card from your [gold]Draw Pile[/gold].\nDraw {Cards:diff()} cards.\nYou cannot draw additional cards this turn.",
