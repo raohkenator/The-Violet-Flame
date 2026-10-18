@@ -26,6 +26,7 @@ public static class StrengthPatch {
             int bass = b && card.Owner.Creature.GetPowerAmount<StrengthPower>().LessThan(0) ? vb.IntValue : 1;
             strMult += bass;
             variable ??= b ? (InvertUtils.StrengthMultVar) vb : null;
+            return b;
         }
         strMult = 1;
         return b;

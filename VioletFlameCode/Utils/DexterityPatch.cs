@@ -26,6 +26,7 @@ public static class DexterityPatch {
             int bass = b && card.Owner.Creature.GetPowerAmount<DexterityPower>().LessThan(0) ? vb.IntValue : 1;
             dexMult += bass;
             variable ??= b ? (InvertUtils.DexterityMultVar)vb : null;
+            return b;
         }
         dexMult = 1;
         return b;
