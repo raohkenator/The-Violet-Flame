@@ -175,7 +175,7 @@
   "VIOLETFLAME-SHORT_REST.title": "Short Rest",
   "VIOLETFLAME-SMOKESCREEN.description": "Gain {Block:diff()} [gold]Block[/gold].\nGain 1 [gold]Poison[/gold].",
   "VIOLETFLAME-SMOKESCREEN.title": "Smokescreen",
-  "VIOLETFLAME-STRATEGIZE.description": "Gain 9 [gold]Block[/gold].\nDraw 2 cards.\nGain {WeakPower:diff} [gold]Weak[/gold].",
+  "VIOLETFLAME-STRATEGIZE.description": "Gain {Block:diff()} [gold]Block[/gold].\nDraw 2 cards.\nGain {WeakPower:diff} [gold]Weak[/gold].",
   "VIOLETFLAME-STRATEGIZE.title": "Strategize",
   "VIOLETFLAME-STRIKE_VIOLET_FLAME.description": "Deal {Damage:diff()} damage.",
   "VIOLETFLAME-STRIKE_VIOLET_FLAME.title": "Strike",
