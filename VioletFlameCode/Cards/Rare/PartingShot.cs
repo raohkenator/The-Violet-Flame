@@ -21,7 +21,7 @@ public class PartingShot() : VioletFlameCard(1,
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new CalculationBaseVar(0),
         new ExtraDamageVar(1M),
-        new CalculatedDamageVar(ValueProp.Move).WithMultiplier((card, _) => card.Owner.Creature.MaxHp - card.Owner.Creature.CurrentHp)
+        new CalculatedDamageVar(ValueProp.Unblockable).WithMultiplier((card, _) => card.Owner.Creature.MaxHp - card.Owner.Creature.CurrentHp)
     ];
 
     protected override async Task OnPlay(
