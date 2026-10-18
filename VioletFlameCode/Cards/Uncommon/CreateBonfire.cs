@@ -13,7 +13,7 @@ namespace VioletFlame.VioletFlameCode.Cards.Uncommon;
 
 public class CreateBonfire() : VioletFlameCard(1,
     CardType.Attack, CardRarity.Uncommon,
-    TargetType.AnyEnemy)
+    TargetType.AllEnemies)
 {
     protected override HashSet<CardTag> CanonicalTags => [];
 
@@ -31,10 +31,10 @@ public class CreateBonfire() : VioletFlameCard(1,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        ArgumentNullException.ThrowIfNull(play.Target);
+        ArgumentNullException.ThrowIfNull(CombatState);
         AttackCommand atkCmd = await DamageCmd.Attack(DynamicVars.Damage.BaseValue)
             .FromCard(this, play)
-            .Targeting(play.Target)
+            .TargetingAllOpponents(CombatState)
             .Execute(choiceContext);
 
         List<CardModel> selection = (await CardSelectCmd.FromCombatPile(choiceContext, PileType.Draw.GetPile(Owner), Owner,
