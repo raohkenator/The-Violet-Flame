@@ -24,7 +24,7 @@ public class CoolOff() : VioletFlameCard(0,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        await CardPileCmd.Draw(choiceContext, Owner);
+        await CardPileCmd.Draw(choiceContext, DynamicVars.Cards.BaseValue, Owner);
         await PowerCmd.Apply<StrengthPower>(choiceContext, Owner.Creature, -1M, Owner.Creature, this);
     }
 
