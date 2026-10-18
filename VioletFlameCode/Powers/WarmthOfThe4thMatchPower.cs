@@ -30,7 +30,7 @@ public class WarmthOfThe4thMatchPower() : VioletFlamePower
 
     public override async Task AfterAttack(PlayerChoiceContext choiceContext, AttackCommand command)
     {
-        if (command.CardPlay.Player != Owner.Player)
+        if (command.Attacker != Owner)
             return;
         InvokeDisplayAmountChanged();
     }
