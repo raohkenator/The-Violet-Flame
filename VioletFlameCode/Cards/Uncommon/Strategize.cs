@@ -21,13 +21,16 @@ public class Strategize() : VioletFlameCard(1,
 
     public override IEnumerable<CardKeyword> CanonicalKeywords => [];
 
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<WeakPower>(2M)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [
+        new BlockVar(9M, ValueProp.Move),
+        new PowerVar<WeakPower>(2M)
+    ];
 
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        await CreatureCmd.GainBlock(Owner.Creature, 9M, ValueProp.Move, play);
+        await CreatureCmd.GainBlock(Owner.Creature, DynamicVars.Block, play);
         await CardPileCmd.Draw(choiceContext, 2M, Owner);
         await PowerCmd.Apply<WeakPower>(choiceContext, Owner.Creature, DynamicVars["WeakPower"].BaseValue, Owner.Creature, this);
     }
