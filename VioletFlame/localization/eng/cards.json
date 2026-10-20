@@ -60,7 +60,7 @@
   "VIOLETFLAME-DIVINATION.description": "Put {Cards:diff()} {Cards:plural:card|cards} from your draw pile into your hand.",
   "VIOLETFLAME-DIVINATION.selectionScreenPrompt": "Select {Cards:diff()} {Cards:plural:card|cards} to add to your.",
   "VIOLETFLAME-DIVINATION.title": "Divination",
-  "VIOLETFLAME-DIVINE_INTERVENTION.description": "Divine Choose a card in your [gold]draw pile[/gold].\nPlay the chosen card twice and Exhaust it.Intervention",
+  "VIOLETFLAME-DIVINE_INTERVENTION.description": "Choose a card in your [gold]draw pile[/gold].\nPlay the chosen card twice and Exhaust it.",
   "VIOLETFLAME-DIVINE_INTERVENTION.selectionScreenPrompt": "Select a card to play twice.",
   "VIOLETFLAME-DIVINE_INTERVENTION.title": "Divine Intervention",
   "VIOLETFLAME-DIVINE_SMITE.description": "If the enemy has {DamageThreshold:diff()} or less HP, set their HP to 0.",
