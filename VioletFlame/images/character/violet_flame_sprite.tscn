@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://rwh5icf08650"]
+
+[ext_resource type="Texture2D" uid="uid://erwut5haucr1" path="res://VioletFlame/images/character/violet_flame_sprite.png" id="1_nthyl"]
+
+[node name="Root" type="Node2D"]
+
+[node name="Visuals" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Visuals"]
+position = Vector2(-34.000015, -126)
+scale = Vector2(0.33, 0.33)
+texture = ExtResource("1_nthyl")
+
+[node name="Bounds" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -89.0
+offset_top = -259.0
+offset_right = 80.0
+offset_bottom = 2.0
+
+[node name="IntentPos" type="Marker2D" parent="."]
+position = Vector2(0, -300)
+
+[node name="CenterPos" type="Marker2D" parent="."]
+position = Vector2(0, -150)
+
+[node name="OrbPos" type="Marker2D" parent="."]
+position = Vector2(0, -300)

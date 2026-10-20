@@ -3,6 +3,7 @@ using BaseLib.Utils.NodeFactories;
 using Godot;
 using MegaCrit.Sts2.Core.Entities.Characters;
 using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.Nodes.Combat;
 using VioletFlame.VioletFlameCode.Cards.Basic;
 using VioletFlame.VioletFlameCode.Extensions;
 using VioletFlame.VioletFlameCode.Relics;
@@ -57,11 +58,13 @@ public class VioletFlame : PlaceholderCharacterModel
             return icon;
         }
     }
-
+    
     public override string CustomIconTexturePath => "character_icon_char_name.png".CharacterUiPath();
     public override string CustomCharacterSelectIconPath => "char_select_violet_flame.png".CharacterUiPath();
     public override string CustomCharacterSelectLockedIconPath => "char_select_violet_flame_locked.png".CharacterUiPath();
     public override string CustomMapMarkerPath => "map_marker_char_name.png".CharacterUiPath();
 
     public override string CustomCharacterSelectBg => "char_background_violet_flame.tscn".CharacterUiPath();
+
+    public override string CustomVisualPath => "res://VioletFlame/images/character/violet_flame_sprite.tscn";
 }
