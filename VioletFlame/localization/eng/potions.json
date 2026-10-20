@@ -1,0 +1,8 @@
+{
+  "VIOLETFLAME-DEFENSE_IN_A_BOTTLE.description": "Gain [blue]5[/blue] [gold]Plating[/gold].\nWhenever you are attacked this turn, deal [blue]5[/blue] damage back.",
+  "VIOLETFLAME-DEFENSE_IN_A_BOTTLE.title": "Defense in a Bottle",
+  "VIOLETFLAME-FLASK_OF_OIL.description": "Gain [blue]8[/blue] [gold]Vigor[/gold].",
+  "VIOLETFLAME-FLASK_OF_OIL.title": "Flask of Oil",
+  "VIOLETFLAME-POTION_OF_REST.description": "Gain [blue]10[/blue] [gold]Regen[/gold].\nLose [blue]2[/blue] [gold]Strength[/gold] and [gold]Dexterity[/gold].",
+  "VIOLETFLAME-POTION_OF_REST.title": "Potion of Rest"
+}
