@@ -113,4 +113,16 @@ public class $CLASS$() : VioletFlame.VioletFlameCode.Powers.VioletFlamePower {
     public override MegaCrit.Sts2.Core.Entities.Powers.PowerStackType StackType =&gt; MegaCrit.Sts2.Core.Entities.Powers.PowerStackType.Counter;
     
     $END$
-}</s:String></wpf:ResourceDictionary>
+}</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FF5BAFB013AE184886293822D7737900/Text/@EntryValue">namespace $NAMESPACE$
+
+public class $CLASS$() : VioletFlame.VioletFlameCode.Potions.VioletFlamePotion {
+    public override MegaCrit.Sts2.Core.Entities.Potions.PotionRarity Rarity =&gt; MegaCrit.Sts2.Core.Entities.Potions.PotionRarity.$RARITY$;
+    public override MegaCrit.Sts2.Core.Entities.Potions.PotionUsage Usage =&gt; MegaCrit.Sts2.Core.Entities.Potions.PotionUsage.$USAGE$;
+    public override MegaCrit.Sts2.Core.Entities.Cards.TargetType TargetType =&gt; MegaCrit.Sts2.Core.Entities.Cards.TargetType.$TARGET$;
+    
+ protected override System.Threading.Tasks.Task OnUse(MegaCrit.Sts2.Core.GameActions.Multiplayer.PlayerChoiceContext choiceContext, MegaCrit.Sts2.Core.Entities.Creatures.Creature? target) {
+    $END$
+ }
+}
+</s:String></wpf:ResourceDictionary>
