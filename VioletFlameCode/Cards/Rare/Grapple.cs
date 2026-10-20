@@ -29,8 +29,8 @@ public class Grapple() : VioletFlameCard(0,
     {
         ArgumentNullException.ThrowIfNull(play.Target);
         
-        await PowerCmd.Apply<StrengthPower>(choiceContext, Owner.Creature, 1M, Owner.Creature, this);
-        await PowerCmd.Apply<DexterityPower>(choiceContext, Owner.Creature, 1M, Owner.Creature, this);
+        await PowerCmd.Apply<StrengthPower>(choiceContext, Owner.Creature, -1M, Owner.Creature, this);
+        await PowerCmd.Apply<DexterityPower>(choiceContext, Owner.Creature, -1M, Owner.Creature, this);
         await PowerCmd.Apply<StrengthPower>(choiceContext, play.Target, DynamicVars["Debuff"].BaseValue, Owner.Creature, this);
         await PowerCmd.Apply<DexterityPower>(choiceContext, play.Target, DynamicVars["Debuff"].BaseValue, Owner.Creature, this);
     }
