@@ -141,7 +141,7 @@
   "VIOLETFLAME-OVERCOME.title": "Overcome",
   "VIOLETFLAME-OVEREXERT.description": "The next Attack and Skill you play each cost 0 {energyPrefix:energyIcons(1)}.\nGain {Debuff:diff()} [gold]Vulnerable[/gold], [gold]Weak[/gold], and [gold]Frail[/gold].",
   "VIOLETFLAME-OVEREXERT.title": "Overexert",
-  "VIOLETFLAME-PARTING_SHOT.description": "Deal damage equal to your missing HP.{InCombat:\n({CalculatedDamage:diff() Damage})|}\n{IfUpgraded:show:Lose all but 1 HP|Die}.",
+  "VIOLETFLAME-PARTING_SHOT.description": "Deal damage equal to your missing HP.\n{IfUpgraded:show:Lose all but 1 HP|Die}.{InCombat:\n({CalculatedDamage:diff()} Damage)|}",
   "VIOLETFLAME-PARTING_SHOT.title": "Parting Shot",
   "VIOLETFLAME-PHOENIXBANE.description": "Remove all [gold]Artifact[/gold] and [gold]Block[/gold] from the enemy.\nDeal 6 damage twice.\nGain 6 Strength.",
   "VIOLETFLAME-PHOENIXBANE.title": "Phoenixbane",
