@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cktg43ih61t28"
-path="res://.godot/imported/map_marker_char_name.png-42c9fac105e0dca48cbce17a2a7a1204.ctex"
+uid="uid://b58vvy8d0nxal"
+path="res://.godot/imported/map_marker_violet_flame.png-1a6aeeac7eb8c4a645b5d0f8c5eb30d4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://VioletFlame/images/charui/map_marker_char_name.png"
-dest_files=["res://.godot/imported/map_marker_char_name.png-42c9fac105e0dca48cbce17a2a7a1204.ctex"]
+source_file="res://VioletFlame/images/charui/map_marker_violet_flame.png"
+dest_files=["res://.godot/imported/map_marker_violet_flame.png-1a6aeeac7eb8c4a645b5d0f8c5eb30d4.ctex"]
 
 [params]
 
