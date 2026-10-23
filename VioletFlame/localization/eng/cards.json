@@ -87,7 +87,7 @@
   "VIOLETFLAME-FLAME_SURGE.title": "Flame Surge",
   "VIOLETFLAME-FORCE_OF_WILL.description": "Gain {CalculatedBlock:diff()} [gold]Block[/gold].\nGains additional [gold]Block[/gold] equal to twice your [gold]Vigor[/gold].\nLose all Vigor.",
   "VIOLETFLAME-FORCE_OF_WILL.title": "Force of Will",
-  "VIOLETFLAME-GRAPPLE.description": "Lose 1 [gold]Strength[/gold] and [gold]Dexterity[/gold].\nEnemy loses {Debuff:inverseDiff()} [gold]Strength[/gold] and [gold]Dexterity[/gold].",
+  "VIOLETFLAME-GRAPPLE.description": "Lose 1 [gold]Strength[/gold] and [gold]Dexterity[/gold].\nEnemy loses {Debuff:diff()} [gold]Strength[/gold] and [gold]Dexterity[/gold].",
   "VIOLETFLAME-GRAPPLE.title": "Grapple",
   "VIOLETFLAME-HALF_PLATE.description": "Gain {Block:diff()} [gold]Block[/gold].\nGain 2 [gold]Plating[/gold].",
   "VIOLETFLAME-HALF_PLATE.title": "Half-Plate",

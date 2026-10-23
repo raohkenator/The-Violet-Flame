@@ -21,7 +21,7 @@ public class Grapple() : VioletFlameCard(0,
 
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
 
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("Debuff", -1M)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("Debuff", 1M)];
 
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
@@ -31,12 +31,12 @@ public class Grapple() : VioletFlameCard(0,
         
         await PowerCmd.Apply<StrengthPower>(choiceContext, Owner.Creature, -1M, Owner.Creature, this);
         await PowerCmd.Apply<DexterityPower>(choiceContext, Owner.Creature, -1M, Owner.Creature, this);
-        await PowerCmd.Apply<StrengthPower>(choiceContext, play.Target, DynamicVars["Debuff"].BaseValue, Owner.Creature, this);
-        await PowerCmd.Apply<DexterityPower>(choiceContext, play.Target, DynamicVars["Debuff"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<StrengthPower>(choiceContext, play.Target, -DynamicVars["Debuff"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<DexterityPower>(choiceContext, play.Target, -DynamicVars["Debuff"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
     {
-        DynamicVars["Debuff"].UpgradeValueBy(-1M);
+        DynamicVars["Debuff"].UpgradeValueBy(1M);
     }
 }
