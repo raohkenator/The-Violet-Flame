@@ -47,7 +47,7 @@
   "VIOLETFLAME-DARK_FLAME.description": "Choose an Attack in your Hand to enchant with [gold]Corrupted[/gold] this combat.\nGain 1 [gold]Vulnerable[/gold].\nIf you have 7 [gold]Vulnerable[/gold], lose 7 HP, {IfUpgraded:show:gain 7 Strength and Dexterity,|} draw 7 cards, and gain {Energy:energyIcons()}.",
   "VIOLETFLAME-DARK_FLAME.selectionScreenPrompt": "Choose an attack in your hand to enchant.",
   "VIOLETFLAME-DARK_FLAME.title": "Dark Flame",
-  "VIOLETFLAME-DAYBREAK.description": "Deal 5 damage {Repeat:diff()} times.\nIf [gold]Fatal[/gold], Heal {Heal:diff()} HP.",
+  "VIOLETFLAME-DAYBREAK.description": "Deal {Damage:diff()} damage {Repeat:diff()} times.\nIf [gold]Fatal[/gold], Heal {Heal:diff()} HP.",
   "VIOLETFLAME-DAYBREAK.title": "Daybreak",
   "VIOLETFLAME-DEFEND_VIOLET_FLAME.description": "Gain {Block:diff()} [gold]Block[/gold].",
   "VIOLETFLAME-DEFEND_VIOLET_FLAME.title": "Defend",
