@@ -36,7 +36,7 @@ public class Immolation() : VioletFlameCard(0,
             .Execute(choiceContext);
         await CardPileCmd.Draw(choiceContext, DynamicVars.Cards.BaseValue, Owner);
         await PlayerCmd.GainEnergy(DynamicVars.Energy.BaseValue, Owner);
-        await PowerCmd.Apply<DexterityPower>(choiceContext, Owner.Creature, 2M, Owner.Creature, this);
+        await PowerCmd.Apply<DexterityPower>(choiceContext, Owner.Creature, -2M, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
