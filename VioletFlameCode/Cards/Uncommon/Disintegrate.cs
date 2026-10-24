@@ -45,7 +45,7 @@ public class Disintegrate() : VioletFlameCard(2,
             await PowerCmd.Apply<PlatingPower>(choiceContext, Owner.Creature, 4M, Owner.Creature, this);
             return;
         }        
-        await PowerCmd.Apply<DemisePower>(choiceContext, play.Target, 2M, Owner.Creature, this);
+        await PowerCmd.Apply<DisintegrationPower>(choiceContext, play.Target, 2M, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
