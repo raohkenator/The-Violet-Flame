@@ -18,7 +18,7 @@ public class ElementalForm() : VioletFlameCard(3,
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
         HoverTipFactory.Static(StaticHoverTip.Block),
         HoverTipFactory.FromPower<StrengthPower>(),
-        HoverTipFactory.FromPower<DemisePower>()
+        HoverTipFactory.FromPower<DisintegrationPower>()
     ];
 
     public override IEnumerable<CardKeyword> CanonicalKeywords => [];

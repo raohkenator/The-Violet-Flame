@@ -26,9 +26,9 @@ public class ElementalFormPower() : VioletFlamePower
         new ("StrengthBase", 0),
         new ("StrengthExtra", 3),
         new CustomCalculatedVar("Strength").WithMultiplier((p, c) => p.Amount),
-        new ("DemiseBase", 0),
-        new ("DemiseExtra", 1),
-        new CustomCalculatedVar("Demise").WithMultiplier((p, c) => p.Amount),
+        new ("DisintegrationBase", 0),
+        new ("DisintegrationExtra", 1),
+        new CustomCalculatedVar("Disintegration").WithMultiplier((p, c) => p.Amount),
         new ("VigorBase", 0),
         new ("VigorExtra", 7),
         new CustomCalculatedVar("Vigor").WithMultiplier((p, c) => p.Amount)
@@ -39,7 +39,7 @@ public class ElementalFormPower() : VioletFlamePower
         if (player != Owner.Player)
             return;
         await PowerCmd.Apply<StrengthPower>(choiceContext, player.Creature, ((CustomCalculatedVar)DynamicVars["Strength"]).CalculateCustom(player.Creature), null, null);
-        await PowerCmd.Apply<DemisePower>(choiceContext, player.Creature, ((CustomCalculatedVar)DynamicVars["Demise"]).CalculateCustom(player.Creature), null, null);
+        await PowerCmd.Apply<DisintegrationPower>(choiceContext, player.Creature, ((CustomCalculatedVar)DynamicVars["Disintegration"]).CalculateCustom(player.Creature), null, null);
     }
 
     public override async Task AfterPowerAmountChanged(PlayerChoiceContext choiceContext, PowerModel power,
