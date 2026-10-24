@@ -18,9 +18,7 @@ public class AllOutOffense() : VioletFlameCard(1,
         new RepeatVar(3),
         new DynamicVar("Turns", 2M)
     ];
-
-    public override bool GainsBlock => true;
-
+    
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
         CardPlay play)
