@@ -32,8 +32,9 @@ public class DivineIntervention() : VioletFlameCard(4,
         CardModel? card = (await CardSelectCmd.FromCombatPile(choiceContext, PileType.Draw.GetPile(Owner), Owner, prefs, c => !c.Keywords.Contains(CardKeyword.Unplayable))).SingleOrDefault();
         if (card == null)
             return;
-        for (int i = 0; i < DynamicVars.Repeat.BaseValue; i++)
-            await CardCmd.AutoPlay(choiceContext, card, null);
+        var dupe = card.CreateDupe(Owner);
+        await CardCmd.AutoPlay(choiceContext, card, null);
+        await CardCmd.AutoPlay(choiceContext, dupe, null);
         await CardCmd.Exhaust(choiceContext, card);
     }
 
