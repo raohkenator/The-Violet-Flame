@@ -10,7 +10,7 @@ using VioletFlame.VioletFlameCode.Cards;
 namespace VioletFlame.VioletFlameCode.Cards.Uncommon;
 
 public class InspiringStrike() : VioletFlameCard(2,
-    CardType.Attack, CardRarity.Rare,
+    CardType.Attack, CardRarity.Uncommon,
     TargetType.AnyEnemy)
 {
     public override CardMultiplayerConstraint MultiplayerConstraint => CardMultiplayerConstraint.MultiplayerOnly;
