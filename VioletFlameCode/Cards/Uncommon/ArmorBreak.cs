@@ -38,7 +38,7 @@ public class ArmorBreak() : VioletFlameCard(1,
         var playerFrail = await PowerCmd.Apply<FrailPower>(choiceContext, this.Owner.Creature, DynamicVars["FrailPower"].IntValue, this.Owner.Creature, this);
         var playerVigor = await PowerCmd.Apply<VigorPower>(choiceContext, this.Owner.Creature, DynamicVars["VigorPower"].IntValue, this.Owner.Creature, this);
         //  Apply Frail to Target Enemy
-        var targetFrail = await PowerCmd.Apply<FrailPower>(choiceContext, this.Owner.Creature, DynamicVars["VigorPower"].IntValue, this.Owner.Creature, this);
+        var targetFrail = await PowerCmd.Apply<FrailPower>(choiceContext, play.Target, DynamicVars["FrailPower"].IntValue, this.Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
