@@ -30,9 +30,10 @@ public class HeatMetal() : VioletFlameCard(1,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        await PowerCmd.Apply<FrailPower>(choiceContext, this.Owner.Creature, DynamicVars["FrailPower"].BaseValue, this.Owner.Creature, this);
-        await PowerCmd.Apply<DemisePower>(choiceContext, this.Owner.Creature, DynamicVars["DemisePower"].BaseValue, this.Owner.Creature, this);
-        await PowerCmd.Apply<ThornsPower>(choiceContext, this.Owner.Creature, 1M, this.Owner.Creature, this);
+        if (play.Target == null) return;
+        await PowerCmd.Apply<FrailPower>(choiceContext, play.Target, DynamicVars["FrailPower"].BaseValue, this.Owner.Creature, this);
+        await PowerCmd.Apply<DemisePower>(choiceContext, play.Target, DynamicVars["DemisePower"].BaseValue, this.Owner.Creature, this);
+        await PowerCmd.Apply<ThornsPower>(choiceContext, play.Target, 1M, this.Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
