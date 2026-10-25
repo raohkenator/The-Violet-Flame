@@ -34,7 +34,7 @@ public class ChangeStance() : VioletFlameCard(1,
             -DynamicVars["StrengthPower"].BaseValue, this.Owner.Creature, this);
         var dexterityPower = await PowerCmd.Apply<DexterityPower>(choiceContext, this.Owner.Creature,
             -DynamicVars["DexterityPower"].BaseValue, this.Owner.Creature, this);
-        var changeStancePower = await PowerCmd.Apply<ChangeStancePower>(choiceContext, this.Owner.Creature,
+        var changeStancePower = await PowerCmd.Apply<PyrePower>(choiceContext, this.Owner.Creature,
             DynamicVars.Energy.BaseValue, this.Owner.Creature, this);
     }
 
