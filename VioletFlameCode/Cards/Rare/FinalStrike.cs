@@ -24,11 +24,13 @@ public class FinalStrike() : VioletFlameCard(1,
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.Static(StaticHoverTip.Fatal)];
 
+    public bool HasKilledThisPlay { get; set; } = false;
+
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        ArgumentNullException.ThrowIfNull(play.Target);
+        if (play.Target == null) return;
         AttackCommand atkCmd = DamageCmd.Attack(DynamicVars.Damage.BaseValue)
             .FromCard(this, play)
             .Targeting(play.Target);
@@ -37,12 +39,22 @@ public class FinalStrike() : VioletFlameCard(1,
         bool killed = result.Count > 0;
         
         if (killed)
-        {
-            await PowerCmd.Apply<VigorPower>(choiceContext, this.Owner.Creature, DynamicVars["VigorPower"].IntValue, this.Owner.Creature, this);
-            return;
-        }
+            HasKilledThisPlay = true;
+    }
 
-        await CreatureCmd.Kill(this.Owner.Creature);
+    public override async Task AfterCardPlayed(PlayerChoiceContext choiceContext, CardPlay cardPlay)
+    {
+        if (cardPlay.IsLastInSeries)
+        {
+            if (HasKilledThisPlay)
+            {
+                await PowerCmd.Apply<VigorPower>(choiceContext, this.Owner.Creature, DynamicVars["VigorPower"].IntValue, this.Owner.Creature, this);
+                HasKilledThisPlay = false;
+                return;
+            }
+
+            await CreatureCmd.Kill(Owner.Creature);
+        }
     }
 
     protected override void OnUpgrade()
