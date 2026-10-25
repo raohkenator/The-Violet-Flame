@@ -32,7 +32,7 @@ public class ZweiHander() : VioletFlameCard(1,
             .FromCard(this, play)
             .Targeting(play.Target)
             .Execute(choiceContext);
-        var card = await CardPileCmd.Draw(choiceContext, this.Owner);
+        var card = await CardPileCmd.Draw(choiceContext, DynamicVars.Cards.BaseValue, Owner);
         CardSelectorPrefs prefs = new CardSelectorPrefs(SelectionScreenPrompt, 1);
         IReadOnlyList<CardPileAddResult> cardPileAddResultList = await CardPileCmd.Add(await CardSelectCmd.FromHand(choiceContext, this.Owner, prefs,  null, this), PileType.Draw, CardPilePosition.Top);
     }
