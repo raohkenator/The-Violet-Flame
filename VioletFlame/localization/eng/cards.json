@@ -113,7 +113,7 @@
   "VIOLETFLAME-INVULNERABILITY.title": "Invulnerability",
   "VIOLETFLAME-KINDLING.description": "Choose a card in your [gold]Hand[/gold] to [gold]Transform[/gold] into [gold]{IfUpgraded:show:Fuel+|Fuel}[/gold].",
   "VIOLETFLAME-KINDLING.title": "Kindling",
-  "VIOLETFLAME-LAST_RESORT.description": "Deal {Damage:diff} damage {Repeat:diff()} times.\nIf [gold]Fatal[/gold], Heal {Heal:diff()} HP. If your HP was 1, heal twice as much.\nYou cannot gain [gold]Block[/gold] from cards for 9 turns.",
+  "VIOLETFLAME-LAST_RESORT.description": "Deal {Damage:diff()} damage {Repeat:diff()} times.\nIf [gold]Fatal[/gold], Heal {Heal:diff()} HP. If your HP was 1, heal twice as much.\nYou cannot gain [gold]Block[/gold] from cards for 9 turns.",
   "VIOLETFLAME-LAST_RESORT.title": "Last Resort",
   "VIOLETFLAME-LAY_ON_HANDS.description": "Give another player {RegenPower:diff()} [gold]Regen[/gold].",
   "VIOLETFLAME-LAY_ON_HANDS.title": "Lay on Hands",
