@@ -25,7 +25,7 @@ public class WarmthOfThe4thMatchPower() : VioletFlamePower
     public override decimal ModifyDamageMultiplicative(Creature? target, decimal amount, ValueProp props, Creature? dealer,
         CardModel? cardSource, CardPlay? cardPlay)
     {
-        return AttacksPlayedThisTurn == 3 && dealer == Owner ? 4M : 1M;
+        return AttacksPlayedThisTurn == 3 && dealer == Owner && props.IsPoweredAttack() ? 4M : 1M;
     }
 
     public override async Task AfterAttack(PlayerChoiceContext choiceContext, AttackCommand command)
