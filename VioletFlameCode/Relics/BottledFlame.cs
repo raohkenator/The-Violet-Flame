@@ -14,11 +14,11 @@ public class BottledFlame() : VioletFlameRelic
 
     public override async Task AfterObtained()
     {
-        CardModel mutableCard = (await CardSelectCmd.FromDeckGeneric(Owner, new CardSelectorPrefs(SelectionScreenPrompt, 1), Filter)).FirstOrDefault();
+        CardModel? mutableCard = (await CardSelectCmd.FromDeckGeneric(Owner, new CardSelectorPrefs(SelectionScreenPrompt, 1), Filter)).FirstOrDefault();
         if (mutableCard == null)
             return;
         mutableCard.AddKeyword(CardKeyword.Innate);
     }
 
-    private bool Filter(CardModel card) => card.Type != CardType.Quest && !card.Keywords.Contains(CardKeyword.Innate);
+    private static bool Filter(CardModel card) => card.Type != CardType.Quest && !card.Keywords.Contains(CardKeyword.Innate) && card.Type == CardType.Skill;
 }
