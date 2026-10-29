@@ -20,5 +20,5 @@ public class BottledFlame() : VioletFlameRelic
         mutableCard.AddKeyword(CardKeyword.Innate);
     }
 
-    private static bool Filter(CardModel card) => card.Type != CardType.Quest && !card.Keywords.Contains(CardKeyword.Innate) && card.Type == CardType.Skill;
+    private static bool Filter(CardModel card) => card.Type != CardType.Quest && !card.Keywords.Contains(CardKeyword.Innate) && card.Type == CardType.Attack;
 }
