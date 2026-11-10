@@ -65,6 +65,8 @@
         <Folder Include="VioletFlameCode\Patches\" />
         <Folder Include="VioletFlame\images\powers\big\"/>
         <Folder Include="VioletFlame\images\relics\big\"/>
+        <Folder Include="VioletFlame\images\scene\merchant\" />
+        <Folder Include="VioletFlame\images\scene\restsite\" />
     </ItemGroup>
 
     <Target Name="CheckDependencyPaths">
