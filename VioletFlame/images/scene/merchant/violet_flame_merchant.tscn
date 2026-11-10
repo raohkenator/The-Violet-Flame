@@ -1,0 +1,68 @@
+[gd_scene load_steps=6 format=3 uid="uid://cfape5fhogo3u"]
+
+[ext_resource type="Texture2D" uid="uid://byjanmk8arrdh" path="res://VioletFlame/images/character/violet_flame_sprite.png" id="1_i4dgj"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i4dgj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_i4dgj")
+}],
+"loop": true,
+"name": &"relaxed_loop",
+"speed": 5.0
+}]
+
+[sub_resource type="Animation" id="Animation_5512v"]
+resource_name = "relaxed_loop"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"relaxed_loop"]
+}
+
+[sub_resource type="Animation" id="Animation_b7cqx"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"relaxed_loop"]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_lhfcq"]
+_data = {
+&"RESET": SubResource("Animation_b7cqx"),
+&"relaxed_loop": SubResource("Animation_5512v")
+}
+
+[node name="VioletFlameMerchant" type="Node2D"]
+
+[node name="Visual" type="Node2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Visual"]
+position = Vector2(-6, -126)
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_i4dgj")
+animation = &"relaxed_loop"
+autoplay = "relaxed_loop"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Visual"]
+root_node = NodePath("../..")
+libraries = {
+&"": SubResource("AnimationLibrary_lhfcq")
+}
+autoplay = "relaxed_loop"
