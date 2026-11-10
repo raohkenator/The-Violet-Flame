@@ -1,0 +1,43 @@
+[gd_scene load_steps=2 format=3 uid="uid://bisegai07hsrx"]
+
+[ext_resource type="Texture2D" uid="uid://dthelmekn3cwi" path="res://VioletFlame/images/character/violet_flame_rest_site.png" id="1_cvjrn"]
+
+[node name="VioletFlameRestSite" type="Node2D"]
+
+[node name="ControlRoot" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Sprite2D" type="Sprite2D" parent="ControlRoot"]
+position = Vector2(134, 98)
+texture = ExtResource("1_cvjrn")
+
+[node name="SelectionReticle" type="Control" parent="ControlRoot"]
+anchors_preset = 0
+offset_left = -15.0
+offset_top = -114.0
+offset_right = 261.0
+offset_bottom = 260.0
+
+[node name="Hitbox" type="Control" parent="ControlRoot"]
+anchors_preset = 0
+offset_left = -15.0
+offset_top = -114.0
+offset_right = 261.0
+offset_bottom = 260.0
+
+[node name="ThoughtBubbleLeft" type="Control" parent="ControlRoot"]
+anchors_preset = 0
+offset_left = -47.0
+offset_top = -93.0
+offset_right = -47.0
+offset_bottom = -93.0
+
+[node name="ThoughtBubbleRight" type="Control" parent="ControlRoot"]
+anchors_preset = 0
+offset_left = 189.0
+offset_top = -93.0
+offset_right = 189.0
+offset_bottom = -93.0
