@@ -1,4 +1,5 @@
 ﻿using BaseLib.Abstracts;
+using BaseLib.Patches.UI;
 using BaseLib.Utils.NodeFactories;
 using Godot;
 using MegaCrit.Sts2.Core.Entities.Characters;
@@ -63,8 +64,22 @@ public class VioletFlame : PlaceholderCharacterModel
     public override string CustomCharacterSelectIconPath => "char_select_violet_flame.png".CharacterUiPath();
     public override string CustomCharacterSelectLockedIconPath => "char_select_violet_flame_locked.png".CharacterUiPath();
     public override string CustomMapMarkerPath => "map_marker_violet_flame.png".CharacterUiPath();
+    
+    //Chest Screen
+    public override string CustomArmPointingTexturePath => "res://VioletFlame/images/character/ui/hand_point.png";
+    public override string CustomArmRockTexturePath => "res://VioletFlame/images/character/ui/hand_rock.png";
+    public override string CustomArmPaperTexturePath => "res://VioletFlame/images/character/ui/hand_paper.png";
+    public override string CustomArmScissorsTexturePath => "res://VioletFlame/images/character/ui/hand_scissors.png";
 
-    public override string CustomCharacterSelectBg => "char_background_violet_flame.tscn".CharacterUiPath();
+    public override RelicIconData? CustomYummyCookie => new(
+        "res://VioletFlame/images/relics/big/yummy_cookie_violet_flame.png",
+        "res://VioletFlame/images/relics/yummy_cookie_violet_flame_outline.png",
+        "res://VioletFlame/images/relics/yummy_cookie_violet_flame_outline.png"
+    );
 
-    public override string CustomVisualPath => "res://VioletFlame/images/character/violet_flame_sprite.tscn";
+    //Scene
+    public override string CustomVisualPath => "res://VioletFlame/images/scene/violet_flame_sprite.tscn";
+    public override string CustomMerchantAnimPath => "res://VioletFlame/images/scene/merchant/violet_flame_merchant.tscn";
+    public override string CustomCharacterSelectBg => "res://VioletFlame/images/scene/charselect/char_background_violet_flame.tscn";
+    public override string CustomRestSiteAnimPath => "res://VioletFlame/images/scene/restsite/violet_flame_rest_site.tscn";
 }
