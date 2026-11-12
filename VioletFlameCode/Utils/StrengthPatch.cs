@@ -3,6 +3,7 @@ using BaseLib.Extensions;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Powers;
+using VioletFlame.VioletFlameCode.Interface;
 
 namespace VioletFlame.VioletFlameCode.Utils;
 
@@ -12,20 +13,21 @@ public static class StrengthPatch {
     
     [HarmonyPostfix]
     public static void ModifyDamage(CardModel? cardSource, ref decimal __result) {
-        int strMult;
-        GetInverse(cardSource, out strMult, out InvertUtils.StrengthMultVar variable);
+        GetInverse(cardSource, out int strMult, out InvertUtils.StrengthMultVar? variable);
+        if (cardSource is IStrengthNull)
+            strMult = 0;
         __result *= strMult;
     }
 
-    public static bool GetInverse(CardModel? card, out int strMult, out InvertUtils.StrengthMultVar variable) {
+    private static bool GetInverse(CardModel? card, out int strMult, out InvertUtils.StrengthMultVar? variable) {
         strMult = 0;
         variable = null;
         bool b = false;
         if (card != null) {
             b = card.DynamicVars.TryGetValue(InvertUtils.StrengthMultVar.Key, out var vb);
-            int bass = b && card.Owner.Creature.GetPowerAmount<StrengthPower>().LessThan(0) ? vb.IntValue : 1;
+            int bass = b && card.Owner.Creature.GetPowerAmount<StrengthPower>().LessThan(0) ? vb!.IntValue : 1;
             strMult += bass;
-            variable ??= b ? (InvertUtils.StrengthMultVar) vb : null;
+            variable ??= b ? (InvertUtils.StrengthMultVar) vb! : null;
             return b;
         }
         strMult = 1;
