@@ -28,11 +28,12 @@ public class Brawl() : VioletFlameCard(3,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        List<CardModel> cards = [null, null, null];
+        ArgumentNullException.ThrowIfNull(CombatState);
+        List<CardModel?> cards = [null, null, null];
         cards[0] = (PileType.Draw.GetPile(Owner).Cards.Where((c => c.Type == CardType.Attack && !c.Keywords.Contains(CardKeyword.Unplayable))).ToList().StableShuffle(Owner.RunState.Rng.Shuffle).FirstOrDefault() ?? PileType.Draw.GetPile(Owner).Cards.Where((c => c.Type == CardType.Attack)).ToList().StableShuffle(Owner.RunState.Rng.Shuffle).FirstOrDefault());
         cards[1] = (PileType.Discard.GetPile(Owner).Cards.Where((c => c.Type == CardType.Attack && !c.Keywords.Contains(CardKeyword.Unplayable))).ToList().StableShuffle(Owner.RunState.Rng.Shuffle).FirstOrDefault() ?? PileType.Discard.GetPile(Owner).Cards.Where((c => c.Type == CardType.Attack)).ToList().StableShuffle(Owner.RunState.Rng.Shuffle).FirstOrDefault());
         cards[2] = (PileType.Hand.GetPile(Owner).Cards.Where((c => c.Type == CardType.Attack && !c.Keywords.Contains(CardKeyword.Unplayable))).ToList().StableShuffle(Owner.RunState.Rng.Shuffle).FirstOrDefault() ?? PileType.Hand.GetPile(Owner).Cards.Where((c => c.Type == CardType.Attack)).ToList().StableShuffle(Owner.RunState.Rng.Shuffle).FirstOrDefault());
-        foreach (CardModel card in cards)
+        foreach (CardModel? card in cards)
         {
             if (card == null)
                 continue;
@@ -40,7 +41,7 @@ public class Brawl() : VioletFlameCard(3,
             {
                 if (card.TargetType == TargetType.AnyEnemy)
                 {
-                    Creature target = Owner.RunState.Rng.CombatTargets.NextItem(CombatState.HittableEnemies);
+                    Creature? target = Owner.RunState.Rng.CombatTargets.NextItem(CombatState.HittableEnemies);
                     await CardCmd.AutoPlay(choiceContext, card, target);
                 }
                 else

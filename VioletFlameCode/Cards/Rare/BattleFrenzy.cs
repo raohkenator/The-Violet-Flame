@@ -36,7 +36,6 @@ public class BattleFrenzy() : VioletFlameCard(1,
         AttackContext attackContext = await AttackCommand.CreateContextAsync(CombatState, choiceContext, play);
 
         object? obj = null;
-        int num = 0;
 
         try
         {
@@ -51,8 +50,6 @@ public class BattleFrenzy() : VioletFlameCard(1,
                 await PowerCmd.Apply<VigorPower>(choiceContext, Owner.Creature, DynamicVars["VigorPower"].BaseValue,
                     Owner.Creature, this);
             }
-
-            num = 1;
         }
         catch (Exception ex)
         {

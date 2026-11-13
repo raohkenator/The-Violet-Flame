@@ -27,7 +27,7 @@ public class DelayedBlastFireball() : VioletFlameCard(2,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        (await PowerCmd.Apply<DelayedBlastFireballPower>(choiceContext, Owner.Creature, DynamicVars["Turns"].BaseValue, Owner.Creature, this)).SetDamage(DynamicVars["BombDamage"].BaseValue);
+        (await PowerCmd.Apply<DelayedBlastFireballPower>(choiceContext, Owner.Creature, DynamicVars["Turns"].BaseValue, Owner.Creature, this))?.SetDamage(DynamicVars["BombDamage"].BaseValue);
     }
 
     protected override void OnUpgrade()

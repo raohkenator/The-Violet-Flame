@@ -37,7 +37,7 @@ public class Cauterize() : VioletFlameCard(1,
         bool fatalTrigger = result.Count > 0;
         if (fatalTrigger)
             return;
-        await PowerCmd.ModifyAmount(choiceContext, deckRemove, -1M, Owner.Creature, this);
+        await PowerCmd.Remove(deckRemove);
 
     }
 

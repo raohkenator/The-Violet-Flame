@@ -63,7 +63,7 @@ public class IncenseBurner() : VioletFlameRelic
         Status = TurnsSeen == DynamicVars["Turns"].IntValue ? RelicStatus.Active : RelicStatus.Normal;
         if (TurnsSeen != 0)
             return;
-        TaskHelper.RunSafely(DoActivateVisuals());
+        _ = TaskHelper.RunSafely(DoActivateVisuals());
         await PowerCmd.Apply<IntangiblePower>(new ThrowingPlayerChoiceContext(), Owner.Creature, 1M, Owner.Creature, null);
     }
 

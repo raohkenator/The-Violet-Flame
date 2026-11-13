@@ -16,10 +16,9 @@ public class TorchSconce() : VioletFlameRelic
 
     public override async Task BeforeSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
-        // checks if it's Players' turn and Owner has Vigor before triggering
-        if (!participants.Contains(Owner.Creature) || !Owner.Creature.Powers.Any(p => p is VigorPower))
+        if (!participants.Contains(Owner.Creature))
             return;
-        int vigorCount = Owner.Creature.GetPower<VigorPower>().Amount;
+        int vigorCount = Owner.Creature.GetPowerAmount<VigorPower>();
         Flash();
         await CreatureCmd.GainBlock(Owner.Creature, vigorCount, ValueProp.Unpowered, null);
     }
